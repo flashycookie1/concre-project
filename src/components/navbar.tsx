@@ -16,7 +16,7 @@ export const Navbar = () => {
     </ul>
     </nav>
     <div>
-      <a className="icon" title="Contact Us"  href="#" target="_blank"><img src="src/assets/mail.svg" width="20px" height="auto"></img></a>
+      <a className="icon" title="Contact Us" href="#" target="_blank"><img src="src/assets/mail.svg" width="20px" height="auto"></img></a>
       <a className="icon" href={groupme} target="_blank"><img src="src/assets/hash.svg" width="20px" height="auto"></img></a>
       <a className="icon" href={instagram} target="_blank"><img src="src/assets/instagram.svg" width="20px" height="auto"></img></a>
       <a className="cta" href={uconntact} target="_blank"><button>Join UConntact</button></a></div>
