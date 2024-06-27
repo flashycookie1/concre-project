@@ -6,7 +6,7 @@ export const Navbar = () => {
 
   return (
     <>
-      <img className="logo" src="src/assets/logo.png" alt="UCONN Concrete Canoe Logo Here"width="13%" height="auto"></img>
+      <img className="logo" src="src/assets/logo.png" alt="UCONN Concrete Canoe Logo Here"width="10%" height="auto"></img>
     <nav>
     <ul>
     <li className="navlink"><a className="selected" href="#">Home</a></li>
