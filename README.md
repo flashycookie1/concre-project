@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # concre-project
 =======
 # React + TypeScript + Vite
