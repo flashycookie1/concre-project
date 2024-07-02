@@ -10,9 +10,8 @@ export const Navbar = () => {
         <nav>
           <ul>
             <li className="navlink"><a className="selected" href="#">Home</a></li>
-            <li className="navlink"><a href="#">Team</a></li>
             <li className="navlink"><a href="#">Sponsors</a></li>
-            <li className="navlink"><a href="#">Events</a></li>
+            <li className="navlink"><a href="#">Archieve</a></li>
           </ul>
         </nav>
       <div>
