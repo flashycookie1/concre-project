@@ -106,7 +106,34 @@ NewsBoard
 
 .newsBoard{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 3fr;
   background-color: #e6f5ffff;
-  padding: 20px;
+  padding: 70px;
+  padding-left: 20%;
+  padding-right: 20%;
 }
+
+.title{
+  font-family: "Work Sans", sans-serif;
+  text-decoration:none;
+  font-size: 45px;
+  width: 150px;
+  color: #0e1740;
+}
+
+.list-group-item{
+  font-family: "Work Sans", sans-serif;
+  text-decoration:none;
+  font-size: 20px;
+  color: #0e1740;
+  width: 400px;
+  padding: 10px;
+}
+
+.list-group{
+  list-style-type: none;
+  padding-top: 15px;
+
+}
+
+
