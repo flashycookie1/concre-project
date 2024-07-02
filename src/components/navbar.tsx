@@ -7,19 +7,20 @@ export const Navbar = () => {
   return (
     <>
       <img className="logo" src="src/assets/logo.png" alt="UCONN Concrete Canoe Logo Here"width="10%" height="auto"></img>
-    <nav>
-    <ul>
-    <li className="navlink"><a className="selected" href="#">Home</a></li>
-    <li className="navlink"><a href="#">Team</a></li>
-    <li className="navlink"><a href="#">Sponsors</a></li>
-    <li className="navlink"><a href="#">Events</a></li>
-    </ul>
-    </nav>
-    <div>
-      <a className="icon" title="Contact Us" href="#" target="_blank"><img src="src/assets/mail.svg" width="20px" height="auto"></img></a>
-      <a className="icon" href={groupme} target="_blank"><img src="src/assets/hash.svg" width="20px" height="auto"></img></a>
-      <a className="icon" href={instagram} target="_blank"><img src="src/assets/instagram.svg" width="20px" height="auto"></img></a>
-      <a className="cta" href={uconntact} target="_blank"><button>Join UConntact</button></a></div>
+        <nav>
+          <ul>
+            <li className="navlink"><a className="selected" href="#">Home</a></li>
+            <li className="navlink"><a href="#">Team</a></li>
+            <li className="navlink"><a href="#">Sponsors</a></li>
+            <li className="navlink"><a href="#">Events</a></li>
+          </ul>
+        </nav>
+      <div>
+        <a className="icon" title="Contact Us" href="#" target="_blank"><img src="src/assets/mail.svg" width="20px" height="auto"></img></a>
+        <a className="icon" href={groupme} target="_blank"><img src="src/assets/hash.svg" width="20px" height="auto"></img></a>
+        <a className="icon" href={instagram} target="_blank"><img src="src/assets/instagram.svg" width="20px" height="auto"></img></a>
+        <a className="cta" href={uconntact} target="_blank"><button>Join UConntact</button></a>
+      </div>
     </>
   );
 };
