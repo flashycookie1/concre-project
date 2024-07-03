@@ -115,7 +115,7 @@ button:hover {
 
 .newsBoard{
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1fr 1fr;
   background-color: #e6f5ffff;
   padding: 70px;
   padding-left: 30%;
@@ -130,18 +130,40 @@ button:hover {
   color: hsl(229, 64%, 15%);
 }
 
-.list-group-item{
+.list-group-item1, .list-group-item2, .list-group-item3{
   font-family: "Work Sans", sans-serif;
   text-decoration:none;
   font-size: 18px;
   color: #0e1740;
-  width: 400px;
   padding: 5px;
+}
+
+.line{
+  color: #0e1740;
 }
 
 .list-group{
   list-style-type: none;
   padding-top: 15px;
+}
+
+.text-button-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 100px;
+}
+
+.b1Div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.b1{
+  font-family: "Work Sans", sans-serif;
+  width: 150px;
+  color: rgb(60, 60, 60);
+  padding: 10px;
 }
 
 
