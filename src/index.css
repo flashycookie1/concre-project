@@ -122,13 +122,20 @@ NewsBoard
   color: #0e1740;
 }
 
-.list-group-item{
+.list-group-item1, .list-group-item2, .list-group-item3{
   font-family: "Work Sans", sans-serif;
   text-decoration:none;
   font-size: 18px;
   color: #0e1740;
-  width: 400px;
   padding: 5px;
+}
+
+.list-group-item1{
+  width: 400px;
+}
+.list-group-item2, .list-group-item3{
+  width: 300px;
+  padding-right: 100px;
 }
 
 .line{
@@ -146,8 +153,14 @@ NewsBoard
   column-gap: 30px;
 }
 
+.b1Div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .b1{
-  align-items: right;
+  
 }
 
 

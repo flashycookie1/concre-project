@@ -11,27 +11,27 @@ export const NewsBoard = () => {
           <ul className="list-group">
             <div className="text-button-grid">
               <div>
-                <li className="list-group-item">UConn takes 4th place overall at the ASCE Northeastern Student Symposium</li>
+                <li className="list-group-item1">UConn takes 4th place overall at the ASCE Northeastern Student Symposium</li>
               </div>
-              <div>
+              <div className="b1Div">
                 <button className="b1"> Visit Gallery </button>
               </div>  
             </div>
             <li className="line">________________________________________________________________________________</li>
             <div className="text-button-grid">
               <div>
-                <li className="list-group-item">We're currently looking for Sponsors</li>
+                <li className="list-group-item2">We're currently looking for Sponsors</li>
               </div>
-              <div>
+              <div className="b1Div">
                 <button className="b1"> Sponsor Us </button>
               </div>  
             </div>
             <li className="line">________________________________________________________________________________</li>
             <div className="text-button-grid">
               <div>
-                <li className="list-group-item">Planning for the 2024-2025 Northeastern Competition is underway</li>
+                <li className="list-group-item3">Planning for the 2024-2025 Season is underway</li>
               </div>
-              <div>
+              <div className="b1Div">
                 <button className="b1"> View Process </button>
               </div>  
             </div>
