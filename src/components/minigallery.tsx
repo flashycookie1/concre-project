@@ -6,7 +6,7 @@ import image3 from '../assets/miniGallery/image3.jpg';
 import image4 from '../assets/miniGallery/image4.jpg';
 import image5 from '../assets/miniGallery/image5.jpeg';
 
-export const MiniGallery = () => {
+const MiniGallery = () => {
     const [positionIndexes, setPositionIndexes] = useState([0, 1, 2, 3, 4])
     
     const handleNext = () => {
@@ -64,3 +64,5 @@ export const MiniGallery = () => {
       </div>
     )
 }
+
+export default MiniGallery
