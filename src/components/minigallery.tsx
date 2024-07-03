@@ -5,6 +5,8 @@ import image2 from '../assets/miniGallery/image2.jpg';
 import image3 from '../assets/miniGallery/image3.jpg';
 import image4 from '../assets/miniGallery/image4.jpg';
 import image5 from '../assets/miniGallery/image5.jpeg';
+import left from '../assets/miniGallery/left-arrow.svg';
+import right from '../assets/miniGallery/right-arrow.svg';
 
 export const MiniGallery = () => {
     const [positionIndexes, setPositionIndexes] = useState([0, 1, 2, 3, 4])
@@ -39,28 +41,43 @@ export const MiniGallery = () => {
       };
 
     return (
-        <div className="carousel">
-        {images.map((image, index) => (
-          <motion.img
-            key={index}
-            src={image}
-            alt={image}
-            className="rounded-[12px]"
-            initial="center"
-            animate={positions[positionIndexes[index]]}
-            variants={imageVariants}
-            transition={{ duration: 0.5 }}
-            style={{ width: "40%", position: "absolute" }}
-          />
-        ))}
-        <div className="flex flex-row gap-3">
-          <button
-            className="text-white mt-[400px] bg-indigo-400 rounded-md py-2 px-4"
-            onClick={handleNext}
-          >
-            Next
-          </button>
-        </div>
+        <div className="carousel-grid">
+            <div>
+            </div>
+
+            <div className="carousel">
+            {images.map((image, index) => (
+            <motion.img
+                key={index}
+                src={image}
+                alt={image}
+                className="rounded-[12px]"
+                initial="center"
+                animate={positions[positionIndexes[index]]}
+                variants={imageVariants}
+                transition={{ duration: 0.5 }}
+                style={{ width: "40%", position: "absolute" }}
+            />
+            ))}
+            </div>
+
+                
+            <div className="carousel-buttons">
+                <button 
+                    className="back"
+                    onClick={handleBack}
+                >
+                    <img src ={left} ></img>
+                </button>
+                
+                <button
+                    className="next"
+                    onClick={handleNext}
+                >
+                    <img src ={right} ></img>
+                </button>
+            </div>
+
       </div>
     )
 }
