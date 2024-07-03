@@ -39,7 +39,7 @@ export const MiniGallery = () => {
       };
 
     return (
-        <div className="flex items-center flex-col justify-center bg-black h-screen">
+        <div className="carousel">
         {images.map((image, index) => (
           <motion.img
             key={index}
@@ -54,12 +54,6 @@ export const MiniGallery = () => {
           />
         ))}
         <div className="flex flex-row gap-3">
-          <button
-            className="text-white mt-[400px] bg-indigo-400 rounded-md py-2 px-4"
-            onClick={handleBack}
-          >
-            Back
-          </button>
           <button
             className="text-white mt-[400px] bg-indigo-400 rounded-md py-2 px-4"
             onClick={handleNext}
