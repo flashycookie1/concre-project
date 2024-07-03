@@ -93,7 +93,7 @@ button:hover {
 
 
 /*
-Background + MiniGallery
+MiniGallery
 */
 
 .carousel{
@@ -115,7 +115,6 @@ Background + MiniGallery
 
 .carousel-buttons{
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 
@@ -124,6 +123,32 @@ Background + MiniGallery
   display: inline;
 }
 
+.spacing1{
+  display: inline;
+  padding: 3%;
+}
+
+.backB, .nextB{
+  background-color: rgba(255, 255, 255, 0.141);
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1px;
+}
+
+.backB:hover, .nextB:hover{
+  background-color: white;
+}
+
+
+
+
+
+/*
+Background
+*/
 
 
 .herotxt {
@@ -148,7 +173,7 @@ Background + MiniGallery
 .newsBoardFlex{
   display: flex;
   align-items: center;
-  justify-items: center;
+  justify-content: center;
 }
 
 .newsBoard{

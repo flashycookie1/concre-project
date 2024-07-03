@@ -62,13 +62,15 @@ const MiniGallery = () => {
             </div>
             <div className='spacing'></div>
             <div className="carousel-buttons">
-                <button 
+                <button className="backB"
                     onClick={handleBack}
                 >
                     <img className="back" src ={left} ></img>
                 </button>
                 
-                <button
+                <div className="spacing1"></div>
+
+                <button className="nextB"
                     onClick={handleNext}
                 >
                     <img className="next" src ={right} ></img>
