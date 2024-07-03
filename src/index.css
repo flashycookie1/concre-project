@@ -1,10 +1,16 @@
 @import url(https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap);
+@font-face {
+  font-family: "Overused Grotesk";
+  src: url(src/assets/fonts/OverusedGrotesk-Medium.ttf);
+}
+@font-face {
+  font-family: "Bluu Next";
+  src: url(src/assets/fonts/BluuNext-Bold.otf);
+}
 
 html {  
   scroll-behavior: smooth;  
 }
-
-
 /*
 NavBar 
 */
@@ -13,9 +19,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 3%;
+  padding: 0px 1%;
   background-color: #10143c;
-
 }
 
 body {
@@ -58,28 +63,18 @@ a:hover  {
 }
 
 button {
-  padding: 9px 15px;
+  padding: 9px 23px;
   background-color: #629AED;
   color: #000E2F;
   font-weight: 500;
   border: none;
-  border-radius: 6px;
+  border-radius: 20px;
   transition: all 0.3 ease 0s;
 }
 button:hover {
   background-color: #629aedd0;
   color: #000E2F;
 }
-
-.work-sans {
-  font-family: "Work Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-
-
-
 
 /*
 Background 
@@ -114,7 +109,7 @@ NewsBoard
 }
 
 .title{
-  font-family: "Work Sans", sans-serif;
+  font-family: "Bluu Next", sans-serif;
   text-decoration:none;
   font-size: 45px;
   width: 150px;
