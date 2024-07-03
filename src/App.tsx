@@ -12,6 +12,7 @@ function App() {
         </header>
         {/* Insert image as background */}
         <img className="background" src="src/assets/bgwtitle.svg"></img>
+        {/* NewsBoard Component */}
         <NewsBoard></NewsBoard>
       </div>
     </>
