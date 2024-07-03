@@ -1,6 +1,10 @@
 import {motion} from 'framer-motion';
 import { useState } from 'react';
 import image1 from '../assets/miniGallery/image1.jpg';
+import image2 from '../assets/miniGallery/image2.jpg';
+import image3 from '../assets/miniGallery/image3.jpg';
+import image4 from '../assets/miniGallery/image4.jpg';
+import image5 from '../assets/miniGallery/image5.jpeg';
 
 export const MiniGallery = () => {
     const [positionIndexes, setPositionIndexes] = useState([0, 1, 2, 3, 4])
@@ -22,7 +26,7 @@ export const MiniGallery = () => {
         });
       };
     
-    const images = [image1];
+    const images = [image1, image2, image3, image4, image5];
 
     const positions = ["center", "left1", "left", "right", "right1"];
 
