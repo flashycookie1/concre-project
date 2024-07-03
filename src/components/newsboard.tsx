@@ -17,7 +17,7 @@ export const NewsBoard = () => {
                 <button className="b1"> Visit Gallery </button>
               </div>  
             </div>
-            <li className="line">________________________________________________________________________________</li>
+            <li className="line">___________________________________________________________________________________________</li>
             <div className="text-button-grid">
               <div>
                 <li className="list-group-item2">We're currently looking for Sponsors</li>
@@ -26,7 +26,7 @@ export const NewsBoard = () => {
                 <button className="b1"> Sponsor Us </button>
               </div>  
             </div>
-            <li className="line">________________________________________________________________________________</li>
+            <li className="line">___________________________________________________________________________________________</li>
             <div className="text-button-grid">
               <div>
                 <li className="list-group-item3">Planning for the 2024-2025 Season is underway</li>
