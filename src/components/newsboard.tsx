@@ -1,4 +1,4 @@
-export const NewsBoard = () => {
+const NewsBoard = () => {
   return (
     <div className="newsBoardFlex">
       <div className="newsBoard">
@@ -41,3 +41,5 @@ export const NewsBoard = () => {
   </div>
   )
 }
+
+export default NewsBoard

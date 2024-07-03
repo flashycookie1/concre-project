@@ -11,28 +11,43 @@
 html {  
   scroll-behavior: smooth;  
 }
-/*
-NavBar 
-*/
+body {
+  margin:0;
+  padding:0;
+}
+:root {
+  font-family: sans-serif;
 
+  /* color variables */
+  --light: #FFFEF0;
+  --lightHover: rgba(255, 255, 255, 0.7);
+  --light2: #F2F1E6;
+  --darkBlue: #629AED;
+  --lightBlue: #8FBAF9;
+  --text: #2B3041;
+  --lightElement: #90939E;
+  --bg: #21253E;
+
+/* background */
+  background-color: var(--bg);
+  background-image: url("src/assets/bg.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+/* Navbar */
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 1%;
-  background-color: #10143c;
-}
-
-body {
-  margin:0;
-  padding:0;
+  padding: 5px 1%;
 }
 
 li, a, button {
   font-family: "Work Sans", sans-serif;
   text-decoration:none;
   font-size: 14px;
-  color: rgba(255, 255, 255, 0.5);
+  color: var(--lightElement);
   cursor: pointer;
   position: relative;
   top: -5px;
@@ -40,11 +55,11 @@ li, a, button {
 
 .selected {
   text-decoration:underline;
-  color: rgba(255, 255, 255, 1);
+  color: var(--light);
 }
 
 a:hover  {
-  color: rgba(255, 255, 255, 1);
+  color: var(--lightHover);
 }
 
 .navlink{
@@ -64,8 +79,8 @@ a:hover  {
 
 button {
   padding: 9px 23px;
-  background-color: #629AED;
-  color: #000E2F;
+  background-color: var(--lightBlue);
+  color: var(--text);
   font-weight: 500;
   border: none;
   border-radius: 20px;
@@ -76,6 +91,7 @@ button:hover {
   color: #000E2F;
 }
 
+<<<<<<< HEAD
 /*
 Background 
 */
@@ -100,14 +116,22 @@ MiniGallery
 
 
 .carousel{
+=======
+.hero {
+>>>>>>> 564a3feea024853b502e07528bbf9b3c271de8e1
   display: flex;
+  flex-direction: column;
+  padding-bottom: 10%;
+}
+.herotxt {
   align-items: center;
-  justify-content: center;
-  padding: 50px;
-  padding-bottom: 200px;
-  background-color: #e6f5ffff;
+  text-align: center;
+  font-size: 45px;
+  font-family: "Bluu Next";
+  color: var(--light);
 }
 
+<<<<<<< HEAD
 .carousel-buttons{
   display: flex;
   align-items: center;
@@ -130,7 +154,16 @@ NewsBoard
   display: flex;
   align-items: center;
   justify-content: center;
+=======
+.sub {
+  font-family: "Overused Grotesk";
+  font-size: 18px;
+  color: var(--lightBlue);
+  text-align: center;
+>>>>>>> 564a3feea024853b502e07528bbf9b3c271de8e1
 }
+
+/* NewsBoard */
 
 .newsBoard{
   display: grid;
@@ -144,9 +177,9 @@ NewsBoard
 .title{
   font-family: "Bluu Next", sans-serif;
   text-decoration:none;
-  font-size: 45px;
+  font-size: 50px;
   width: 150px;
-  color: #0e1740;
+  color: hsl(229, 64%, 15%);
 }
 
 .list-group-item1, .list-group-item2, .list-group-item3{
@@ -155,14 +188,6 @@ NewsBoard
   font-size: 18px;
   color: #0e1740;
   padding: 5px;
-}
-
-.list-group-item1{
-  width: 400px;
-}
-.list-group-item2, .list-group-item3{
-  width: 300px;
-  padding-right: 100px;
 }
 
 .line{

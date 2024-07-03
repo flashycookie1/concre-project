@@ -8,7 +8,7 @@ import image5 from '../assets/miniGallery/image5.jpeg';
 import left from '../assets/miniGallery/left-arrow.svg';
 import right from '../assets/miniGallery/right-arrow.svg';
 
-export const MiniGallery = () => {
+const MiniGallery = () => {
     const [positionIndexes, setPositionIndexes] = useState([0, 1, 2, 3, 4])
     
     const handleNext = () => {
@@ -81,3 +81,5 @@ export const MiniGallery = () => {
       </div>
     )
 }
+
+export default MiniGallery
