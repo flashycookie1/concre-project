@@ -140,4 +140,14 @@ NewsBoard
   padding-top: 15px;
 }
 
+.text-button-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
+}
+
+.b1{
+  align-items: right;
+}
+
 
