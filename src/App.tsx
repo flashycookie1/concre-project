@@ -1,7 +1,7 @@
 //import { useState } from 'react'
-import { Navbar } from "./components/navbar";
-import { MiniGallery } from "./components/minigallery";
-import { NewsBoard } from "./components/newsboard";
+import Navbar from "./components/navbar";
+import MiniGallery from "./components/minigallery";
+import NewsBoard from "./components/newsboard";
 
 function App() {
   return (
