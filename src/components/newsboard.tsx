@@ -1,4 +1,4 @@
-export const NewsBoard = () => {
+const NewsBoard = () => {
   return (
     <div className="newsBoard">
     <div>
@@ -18,3 +18,5 @@ export const NewsBoard = () => {
   </div>
   )
 }
+
+export default NewsBoard

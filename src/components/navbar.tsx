@@ -1,4 +1,4 @@
-export const Navbar = () => {
+const Navbar = () => {
   
   const uconntact = "https://uconntact.uconn.edu/organization/concretecanoeassociationuconn";
   const instagram = "https://www.instagram.com/uconnconcretecanoe?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==";
@@ -11,7 +11,7 @@ export const Navbar = () => {
           <ul>
             <li className="navlink"><a className="selected" href="#">Home</a></li>
             <li className="navlink"><a href="#">Sponsors</a></li>
-            <li className="navlink"><a href="#">Archieve</a></li>
+            <li className="navlink"><a href="#">Archive</a></li>
           </ul>
         </nav>
       <div>
@@ -23,3 +23,5 @@ export const Navbar = () => {
     </>
   );
 };
+
+export default Navbar
