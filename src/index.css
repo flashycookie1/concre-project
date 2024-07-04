@@ -9,7 +9,9 @@
 }
 
 html {  
-  scroll-behavior: smooth;  
+  scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: hidden;  
 }
 body {
   margin:0;
@@ -190,7 +192,7 @@ Background
   text-decoration:none;
   font-size: 18px;
   color: var(--text);
-  padding: 5px;
+  padding: 0px;
 }
 
 .line{
@@ -199,7 +201,7 @@ Background
 
 .list-group{
   list-style-type: none;
-  padding-top: 15px;
+  padding-top: 20px;
 }
 
 .text-button-grid{
