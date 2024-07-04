@@ -32,9 +32,9 @@ body {
 
 /* background */
   background-color: var(--bg);
-  background-image: url("src/assets/bg.png");
+  /* background-image: url("src/assets/bg.png");
   background-size: 100%;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 
 /* Navbar */
@@ -42,16 +42,20 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px 1%;
+  padding: 15px 2%;
 }
 
 li, a, button {
   font-family: "Work Sans", sans-serif;
   text-decoration:none;
-  font-size: 14px;
+  font-size: 13px;
   color: var(--lightElement);
   position: relative;
   top: -5px;
+}
+
+.logo {
+  margin-right: 55px;
 }
 
 .selected {
@@ -65,15 +69,12 @@ a:hover  {
 
 .navlink{
   display: inline-block;
-  padding: 0px 20px;
-}
-.navlink li a {
-  transition: all 0.3 ease 0s;
+  margin-left: 40px;
 }
 
 .icon {
-  padding-left: 0px;
-  padding-right: 25px;
+  padding-left: 9px;
+  padding-right: 15px;
   position: relative;
   top: -4px;
 }
@@ -93,6 +94,20 @@ button:hover {
   color: var(--text);
 }
 
+.herotxt {
+  align-items: center;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Bluu Next";
+  color: var(--light);
+}
+
+.sub {
+  font-family: "Overused Grotesk";
+  font-size: 16px;
+  color: var(--lightBlue);
+  text-align: center;
+}
 
 /*
 MiniGallery
@@ -141,25 +156,6 @@ MiniGallery
 
 .backB:hover, .nextB:hover{
   background-color: var(--light);
-}
-
-/*
-Background
-*/
-
-.herotxt {
-  align-items: center;
-  text-align: center;
-  font-size: 45px;
-  font-family: "Bluu Next";
-  color: var(--light);
-}
-
-.sub {
-  font-family: "Overused Grotesk";
-  font-size: 18px;
-  color: var(--lightBlue);
-  text-align: center;
 }
 
 /* NewsBoard */
