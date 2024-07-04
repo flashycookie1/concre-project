@@ -32,9 +32,9 @@ body {
 
 /* background */
   background-color: var(--bg);
-  /* background-image: url("src/assets/bg.png");
+  background-image: url("src/assets/Gradient.png");
   background-size: 100%;
-  background-repeat: no-repeat; */
+  background-repeat: no-repeat;
 }
 
 /* Navbar */
