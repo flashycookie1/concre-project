@@ -22,7 +22,7 @@ body {
   --light: #FFFEF0;
   --lightHover: rgba(255, 255, 255, 0.7);
   --light2: #F2F1E6;
-  --darkBlue: #629AED;
+  --lightBlueHover: rgba(143, 186, 249, 0.9);
   --lightBlue: #8FBAF9;
   --text: #2B3041;
   --lightElement: #90939E;
@@ -87,8 +87,8 @@ button {
   transition: all 0.3 ease 0s;
 }
 button:hover {
-  background-color: #629aedd0;
-  color: #000E2F;
+  background-color: var(--lightBlueHover);
+  color: var(--text);
 }
 
 
@@ -128,7 +128,7 @@ MiniGallery
 }
 
 .backB, .nextB{
-  background-color: rgba(255, 255, 255, 0.141);
+  background-color: var(--lightBlueHover);
   height: 50px;
   width: 50px;
   display: flex;
@@ -138,7 +138,7 @@ MiniGallery
 }
 
 .backB:hover, .nextB:hover{
-  background-color: white;
+  background-color: var(--light);
 }
 
 /*
@@ -171,7 +171,7 @@ Background
 .newsBoard{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: #e6f5ffff;
+  background-color: var(--light);
   padding: 70px;
   padding-left: 30%;
   padding-right: 30%;
@@ -182,19 +182,19 @@ Background
   text-decoration:none;
   font-size: 50px;
   width: 170px;
-  color: hsl(229, 64%, 15%);
+  color: var(--text);
 }
 
 .list-group-item1, .list-group-item2, .list-group-item3{
-  font-family: "Work Sans", sans-serif;
+  font-family: "Overused Grotesk", sans-serif;
   text-decoration:none;
   font-size: 18px;
-  color: #0e1740;
+  color: var(--text);
   padding: 5px;
 }
 
 .line{
-  color: #0e1740;
+  color: var(--text);
 }
 
 .list-group{
@@ -204,7 +204,7 @@ Background
 
 .text-button-grid{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
   column-gap: 100px;
 }
 
@@ -216,8 +216,8 @@ Background
 
 .b1{
   font-family: "Work Sans", sans-serif;
-  width: 150px;
-  color: rgb(60, 60, 60);
+  width: 140px;
+  color: var(--text);
   padding: 10px;
 }
 
