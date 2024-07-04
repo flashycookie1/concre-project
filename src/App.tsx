@@ -7,13 +7,9 @@ import NewsBoard from "./components/newsboard";
 function App() {
   return (
     <>
-        <header>
-          <Navbar></Navbar>
-        </header>
+        <Navbar></Navbar>
         <Hero></Hero>
-        {/* MiniGallery Component*/}
         <MiniGallery></MiniGallery>
-        {/* NewsBoard Component */}
         <NewsBoard></NewsBoard>
     </>
   );
