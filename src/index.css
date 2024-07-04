@@ -100,17 +100,16 @@ MiniGallery
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
-
 .spacing{
-  padding: 8%;
+  padding: 7%;
 }
 
 .spacing2{
-  padding: 2%;
+  padding: 3%;
 }
 
 .carousel-buttons{
@@ -125,7 +124,7 @@ MiniGallery
 
 .spacing1{
   display: inline;
-  padding: 3%;
+  padding: 2%;
 }
 
 .backB, .nextB{
@@ -142,14 +141,9 @@ MiniGallery
   background-color: white;
 }
 
-
-
-
-
 /*
 Background
 */
-
 
 .herotxt {
   align-items: center;
@@ -165,8 +159,6 @@ Background
   color: var(--lightBlue);
   text-align: center;
 }
-
-
 
 /* NewsBoard */
 
