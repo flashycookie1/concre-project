@@ -2,12 +2,9 @@ const NewsBoard = () => {
   return (
     <div className="newsBoardFlex">
       <div className="newsBoard">
-        <div>
           <h1 className="title">
             WHAT WE'RE UP TO
           </h1>
-        </div>
-        <div>
           <ul className="list-group">
             <div className="text-button-grid">
               <div>
@@ -29,7 +26,7 @@ const NewsBoard = () => {
             <li className="line">___________________________________________________________________________________________</li>
             <div className="text-button-grid">
               <div>
-                <li className="list-group-item3">Planning for the 2024-2025 Season is underway</li>
+                <li className="list-group-item3">Planning for the 2024-2025 Season is underway!</li>
               </div>
               <div className="b1Div">
                 <button className="b1"> View Process </button>
@@ -38,7 +35,6 @@ const NewsBoard = () => {
           </ul>
         </div>
     </div>
-  </div>
   )
 }
 
