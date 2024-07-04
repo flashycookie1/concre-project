@@ -32,7 +32,7 @@ body {
 
 /* background */
   background-color: var(--bg);
-  background-image: url("src/assets/Gradient.png");
+  background-image: url(src/assets/Gradient.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -45,13 +45,17 @@ header {
   padding: 15px 2%;
 }
 
-li, a, button {
+  a, button {
   font-family: "Work Sans", sans-serif;
   text-decoration:none;
   font-size: 13px;
   color: var(--lightElement);
   position: relative;
-  top: -5px;
+  top: 5px
+}
+
+a {
+  top: -15px;
 }
 
 .logo {
@@ -69,18 +73,18 @@ a:hover  {
 
 .navlink{
   display: inline-block;
-  margin-left: 40px;
+  margin-left: 35px;
 }
 
 .icon {
   padding-left: 9px;
   padding-right: 15px;
   position: relative;
-  top: -4px;
+  top: -5px;
 }
 
 button {
-  padding: 9px 23px;
+  padding: 10px 23px;
   background-color: var(--lightBlue);
   color: var(--text);
   font-weight: 500;
@@ -88,6 +92,7 @@ button {
   border-radius: 20px;
   transition: all 0.3 ease 0s;
   cursor: pointer;
+  margin-bottom: 10px
 }
 button:hover {
   background-color: var(--lightBlueHover);
@@ -160,17 +165,13 @@ MiniGallery
 
 /* NewsBoard */
 
-.newsBoardFlex{
-  display: flex;
+.newsBoard{
   align-items: center;
   justify-content: center;
-}
-
-.newsBoard{
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: var(--light);
-  padding: 70px;
+  padding: 60px;
   padding-left: 30%;
   padding-right: 30%;
 }
@@ -183,32 +184,35 @@ MiniGallery
   color: var(--text);
 }
 
-.list-group-item1, .list-group-item2, .list-group-item3{
+.list-group-item{
   font-family: "Overused Grotesk", sans-serif;
   text-decoration:none;
-  font-size: 18px;
+  font-size: 16px;
   color: var(--text);
   padding: 0px;
+  width: 400px;
 }
 
-.line{
-  color: var(--text);
-}
-
-.list-group{
-  list-style-type: none;
-  padding-top: 20px;
+hr {
+  border: none;
+  background-color: var(--lightElement);
+  height: 1.5px;
+  width: 100%;
+  text-align:center;
+  margin-left:0;
 }
 
 .text-button-grid{
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 4fr 1fr;
   column-gap: 100px;
+  padding-top: 3%;
+  list-style-type: none;
 }
 
 .b1Div{
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
 }
 
