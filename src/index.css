@@ -166,9 +166,9 @@ MiniGallery
 /* NewsBoard */
 
 .newsBoard{
+  display: grid;
   align-items: center;
   justify-content: center;
-  display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: var(--light);
   padding: 60px;
@@ -223,4 +223,15 @@ hr {
   padding: 10px;
 }
 
+/* The Challenge */
 
+.challengeDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.challengeHead {
+  font-family: "Bluu Next";
+  color: var(--light);
+}
