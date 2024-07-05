@@ -104,6 +104,11 @@ button:hover {
   color: var(--text);
 }
 
+/*
+Hero
+*/
+
+
 .herotxt {
   align-items: center;
   text-align: center;
@@ -117,6 +122,13 @@ button:hover {
   font-size: 18px;
   color: var(--lightBlue);
   text-align: center;
+}
+
+.hero{
+  background-image: url("./assets/bg.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 200px;
 }
 
 /*
@@ -142,6 +154,8 @@ MiniGallery
 .carousel-buttons{
   display: flex;
   justify-content: center;
+  padding: 10px;
+  padding-bottom: 20px;;
 }
 
 .back, .next{

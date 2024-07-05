@@ -41,11 +41,9 @@ const MiniGallery = () => {
       };
 
     return (
+        <>
         <div className="carousel-grid">
-            <div>
-            </div>
-
-            <div className="carousel">
+          <div className="carousel">
             {images.map((image, index) => (
             <motion.img
                 key={index}
@@ -59,25 +57,21 @@ const MiniGallery = () => {
                 style={{ width: "40%", position: "absolute" }}
             />
             ))}
-            </div>
-            <div className='spacing'></div>
-            <div className="carousel-buttons">
-                <button className="backB"
-                    onClick={handleBack}
-                >
-                    <img className="back" src ={left} ></img>
-                </button>
-                
-                <div className="spacing1"></div>
-
-                <button className="nextB"
-                    onClick={handleNext}
-                >
-                    <img className="next" src ={right} ></img>
-                </button>
-            </div>
-            <div className='spacing2'></div>
-      </div>
+          </div>
+          <div className='spacing'></div>
+          <div className='spacing2'></div>
+        </div>
+        <div className="carousel-buttons">
+          <button className="backB" onClick={handleBack}>
+              <img className="back" src ={left} ></img>
+          </button>
+          <div className="spacing1"></div>
+          <button className="nextB" onClick={handleNext}>
+              <img className="next" src ={right} ></img>
+          </button>
+        </div>
+        </>
+        
     )
 }
 
