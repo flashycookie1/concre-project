@@ -2,7 +2,7 @@ const NewsBoard = () => {
   return (
       <div className="newsBoard">
         <h1 className="title">WHAT WE'RE UP TO</h1>
-        <ul>
+        <ul className="updates">
           <div className="text-button-grid">
             <li className="list-group-item">
               UConn takes 4th place overall at the ASCE<br/>

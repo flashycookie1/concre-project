@@ -185,14 +185,13 @@ MiniGallery
 /* NewsBoard */
 
 .newsBoard{
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  grid-template-columns: 1fr 1fr;
+  display: flexbox;
+  flex-direction: row;
+  flex-wrap: wrap;
   background-color: var(--light);
   padding: 60px;
-  padding-left: 30%;
-  padding-right: 30%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .title{
@@ -201,6 +200,13 @@ MiniGallery
   font-size: 50px;
   width: 170px;
   color: var(--text);
+  display: inline-block;
+  margin-left: 10%;
+}
+
+.updates{
+  display: inline-block;
+  width: 600px;
 }
 
 .list-group-item{
@@ -210,6 +216,7 @@ MiniGallery
   color: var(--text);
   padding: 0px;
   width: 400px;
+  display: inline-block;
 }
 
 hr {
@@ -222,17 +229,17 @@ hr {
 }
 
 .text-button-grid{
-  display: grid;
-  grid-template-columns: 4fr 1fr;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   column-gap: 50px;
   padding-top: 3%;
   list-style-type: none;
 }
 
 .b1Div{
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
+  width: auto;
+  display: inline-block;
 }
 
 .b1{
