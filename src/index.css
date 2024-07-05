@@ -188,10 +188,12 @@ MiniGallery
   display: flexbox;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   background-color: var(--light);
   padding: 60px;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-top: 7%;
+  padding-bottom: 7%;
 }
 
 .title{
@@ -263,6 +265,7 @@ hr {
 .challengeHead {
   font-family: var(--bluu);
   color: var(--text);
+  padding-top: 50px;
 }
 
 .challengetxt {
@@ -271,4 +274,23 @@ hr {
   color: var(--text);
   text-align: center;
   width: 75%;
+}
+
+.interested{
+  font-family: var(--overused);
+  color: var(--text);
+  text-align: center;
+  font-size: 22px;
+}
+
+.embeded-link{
+  font-family: var(--overused);
+  color: var(--text);
+  text-align: center;
+  font-size: 22px;
+  text-decoration: underline;
+}
+
+.embeded-link:hover{
+  color: blue;
 }

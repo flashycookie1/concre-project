@@ -1,15 +1,24 @@
 const Challenge = () => {
+  const uconntact = "https://uconntact.uconn.edu/organization/concretecanoeassociationuconn";
+  const groupme = "https://groupme.com/join_group/55277612/5LKpXhFn"
+
   return (
     <div className="challengeDiv">
       <h1 className="challengeHead">The Challenge</h1>
       <p className="challengetxt">
-        Each year, it is the team’s challenge to assess and evaluate competition
-        regulations and adhere to them throughout the engineering design
-        process. This includes designing, planning, testing, constructing, and
-        finalizing. At the end of the process, the team kicks into competition
-        mode where we deliver an in-depth design paper, give a panel
-        presentation, and race and compete against other teams in our canoe.
+        Design and build a concrete canoe according to ASCE guidelines. We go through the entire 
+        engineering process--from initial design and testing to final construction--before submitting 
+        a design paper, presenting to panel of judges, and racing against other teams at the annual
+        ASCE Northeastern Student Symposium. 
       </p>
+      <p className="interested">
+        We are open to ALL MAJORS!
+      </p>
+      <p className="interested">
+      Interested? Join our <a className="embeded-link" href={uconntact}> 
+      UConntact</a> and <a className="embeded-link" href={groupme}> GroupMe</a>
+      </p>
+
     </div>
   );
 };
