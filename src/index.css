@@ -255,7 +255,7 @@ hr {
   align-items: center;
   background-color: var(--light);
   background-image: url(src/assets/water.svg);
-  background-size: 70%;
+  background-size: 60rem;
   background-repeat: no-repeat;
   background-position-x: 50%;
   padding: 5%;
@@ -313,8 +313,8 @@ hr {
   flex-direction:row;
   justify-content: center;
   align-items: center;
-  column-gap: 100px;
-  width: 80rem
+  column-gap: 10rem;
+  width: 77.8rem;
 }
 
 .sponsorText {
@@ -330,6 +330,7 @@ hr {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-left: 10%;
 }
 
 .sponsorButton {
