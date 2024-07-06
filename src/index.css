@@ -184,11 +184,21 @@ MiniGallery
 
 /* NewsBoard */
 
+.newsBoardDiv{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 100px;
+  background-color: var(--light);
+}
+
 .newsBoard{
   background-color: var(--light);
-  padding: 20%;
-  padding-top: 7%;
-  padding-bottom: 2%;
+  flex-direction: row;
+  flex-flow: wrap;
+  align-content: center;
+  justify-content: center;
+  column-gap: 20px;
 }
 
 .title{
@@ -198,11 +208,12 @@ MiniGallery
   color: var(--text);
   display: inline-block;
   position: relative;
-  bottom: 30px;
+  padding-right: 30px;
 }
 
 .updates{
   display: inline-block;
+  padding-left: 0px;
 }
 
 .list-group-item{
