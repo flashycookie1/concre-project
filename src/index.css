@@ -37,7 +37,7 @@ body {
 
 /* background */
   background-color: var(--bg);
-  background-image: url(src/assets/Gradient.jpg);
+  background-image: url(src/assets/bg.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -124,13 +124,6 @@ Hero
   text-align: center;
 }
 
-.hero{
-  background-image: url("./assets/bg.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  padding: 200px;
-}
-
 /*
 MiniGallery
 */
@@ -193,7 +186,7 @@ MiniGallery
   background-color: var(--light);
   padding: 60px;
   padding-top: 7%;
-  padding-bottom: 7%;
+  padding-bottom: 5%;
 }
 
 .title{
@@ -259,7 +252,11 @@ hr {
   justify-content: center;
   background-color: var(--light);
   background-image: url(src/assets/water.svg);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: 50%;
   padding: 5%;
+  padding-top: 7rem;
 }
 
 .challengeHead {
@@ -292,5 +289,5 @@ hr {
 }
 
 .embeded-link:hover{
-  color: blue;
+  color: var(--lightElement);
 }
