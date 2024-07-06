@@ -26,6 +26,7 @@ body {
   --light2: #F2F1E6;
   --lightBlueHover: rgba(143, 186, 249, 0.9);
   --lightBlue: #8FBAF9;
+  --darkBlue: #629AED;
   --text: #2B3041;
   --lightElement: #90939E;
   --bg: #21253E;
@@ -266,17 +267,15 @@ hr {
   font-family: var(--overused);
   color: var(--text);
   text-align: center;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .embeded-link{
   font-family: var(--overused);
   color: var(--text);
-  text-align: center;
-  font-size: 22px;
   text-decoration: underline;
 }
 
 .embeded-link:hover{
-  color: var(--lightElement);
+  color: var(--darkBlue);
 }

@@ -11,11 +11,12 @@ const Challenge = () => {
         ASCE Northeastern Student Symposium. 
       </p>
       <p className="interested">
-        We are open to ALL MAJORS!
+        We are open to ALL MAJORS! <br/> 
+        Interested? Join our <a className="embeded-link" href={uconntact}> 
+        UConntact</a> and <a className="embeded-link" href={groupme}> GroupMe</a>
       </p>
       <p className="interested">
-      Interested? Join our <a className="embeded-link" href={uconntact}> 
-      UConntact</a> and <a className="embeded-link" href={groupme}> GroupMe</a>
+      
       </p>
 
     </div>
