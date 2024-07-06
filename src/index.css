@@ -37,7 +37,7 @@ body {
   --work: "Work Sans";
 
 /* background */
-  background-color: var(--bg);
+background-color: var(--light);
   background-image: url(src/assets/bg.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
@@ -276,6 +276,7 @@ hr {
   color: var(--text);
   text-align: center;
   font-size: 18px;
+  padding-bottom: 3rem;
 }
 
 .hover-underline-animation {
@@ -303,4 +304,40 @@ hr {
   color: var(--text);
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+
+/* Sponsorships */
+
+.sponsorFlex {
+  display: inline-flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 100px;
+  width: 80rem
+}
+
+.sponsorText {
+  font-family: var(--overused);
+  color: var(--text);
+  font-size: 1.3rem;
+  text-align: center;
+  width:20rem;
+}
+
+.leftDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sponsorButton {
+  background-color: var(--bg);
+  color: var(--light2)
+}
+
+.sponsorButton:hover {
+  background-color: var(--text);
+  color: var(--light)
 }
