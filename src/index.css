@@ -53,14 +53,8 @@ header {
   a, button {
   font-family: "Work Sans", sans-serif;
   text-decoration:none;
-  font-size: 13px;
+  
   color: var(--lightElement);
-  position: relative;
-  top: 5px
-}
-
-a {
-  top: -15px;
 }
 
 .logo {
@@ -79,13 +73,14 @@ a:hover  {
 .navlink{
   display: inline-block;
   margin-left: 35px;
+  font-size: 13px;
+  position: relative;
+  top: -10px
 }
 
 .icon {
   padding-left: 9px;
   padding-right: 15px;
-  position: relative;
-  top: -5px;
 }
 
 button {
@@ -102,6 +97,11 @@ button {
 button:hover {
   background-color: var(--lightBlueHover);
   color: var(--text);
+}
+
+.cta {
+  position: relative;
+  top: -5px
 }
 
 /*
