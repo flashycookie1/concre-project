@@ -15,10 +15,6 @@ const Challenge = () => {
         Interested? Join our <a className="hover-underline-animation" href={uconntact}> 
         UConntact</a> and <a className="hover-underline-animation" href={groupme}> GroupMe</a>
       </p>
-      <p className="interested">
-      
-      </p>
-
     </div>
   );
 };
