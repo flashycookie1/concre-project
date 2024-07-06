@@ -4,9 +4,8 @@ const Challenge = () => {
 
   return (
     <div className="challengeDiv">
-      <h1 className="challengeHead">The Challenge</h1>
       <p className="challengetxt">
-        Design and build a concrete canoe according to ASCE guidelines. We go through the entire 
+        YOUR CHALLENGE: Design and build a concrete canoe according to ASCE guidelines. We go through the entire 
         engineering process--from initial design and testing to final construction--before submitting 
         a design paper, presenting to panel of judges, and racing against other teams at the annual
         ASCE Northeastern Student Symposium. 
