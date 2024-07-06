@@ -11,8 +11,8 @@ const Navbar = () => {
         <nav>
           <ul>
             <li className="navlink"><a className="selected" href="#">Home</a></li>
-            <li className="navlink"><a href="#">Sponsors</a></li>
-            <li className="navlink"><a href="#">Archive</a></li>
+            <li className="navlink"><a className="unselected" href="#">Sponsors</a></li>
+            <li className="navlink"><a className="unselected" href="#">Archive</a></li>
           </ul>
         </nav>
       <div>

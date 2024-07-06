@@ -12,8 +12,8 @@ const Challenge = () => {
       </p>
       <p className="interested">
         We are open to ALL MAJORS! <br/> 
-        Interested? Join our <a className="embeded-link" href={uconntact}> 
-        UConntact</a> and <a className="embeded-link" href={groupme}> GroupMe</a>
+        Interested? Join our <a className="hover-underline-animation" href={uconntact}> 
+        UConntact</a> and <a className="hover-underline-animation" href={groupme}> GroupMe</a>
       </p>
       <p className="interested">
       

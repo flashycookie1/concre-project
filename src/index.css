@@ -67,7 +67,13 @@ header {
   color: var(--light);
 }
 
-a:hover  {
+.unselected {
+  font-family: "Work Sans", sans-serif;
+  text-decoration:none;
+  color: var(--lightElement);
+}
+
+.unselected:hover  {
   color: var(--lightHover);
 }
 
@@ -270,12 +276,29 @@ hr {
   font-size: 18px;
 }
 
-.embeded-link{
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
   font-family: var(--overused);
   color: var(--text);
-  text-decoration: underline;
 }
 
-.embeded-link:hover{
-  color: var(--darkBlue);
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--darkBlue);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  font-family: var(--overused);
+  color: var(--text);
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
