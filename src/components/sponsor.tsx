@@ -2,11 +2,16 @@ const Sponsor = () => {
   return (
     <>
     <div className="sponsorFlex">
-    <div className="leftDiv">
-    <p className="sponsorText">Interested in sponsoring us? Learn how becoming a sponsor works</p>
-    <button className="sponsorButton">Learn More</button>
-    </div>
-    <img src="src/assets/sponsorimg.jpg" width="30%"></img>
+      <div className="sponsorFlexGrid">
+        <div className="sponsorDiv">
+          <p className="sponsorText">Interested in sponsoring us? Learn how becoming a sponsor works</p>
+          <button className="sponsorButton">Learn More</button>
+        </div>
+        <div className="sponsorimgDiv">
+          <img src="src/assets/sponsorimg.png" width="400px"></img>
+        </div>
+      </div>
+
     </div>
     </>
   )

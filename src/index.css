@@ -184,12 +184,21 @@ MiniGallery
 
 /* NewsBoard */
 
-.newsBoard{
+.newsBoardDiv{
   display: flex;
   align-content: center;
   justify-content: center;
   padding: 100px;
   background-color: var(--light);
+}
+
+.newsBoard{
+  background-color: var(--light);
+  flex-direction: row;
+  flex-flow: wrap;
+  align-content: center;
+  justify-content: center;
+  column-gap: 20px
 }
 
 .title{
@@ -308,37 +317,60 @@ hr {
 
 /* Sponsorships */
 
-.sponsorFlex {
-  display: inline-flex;
-  flex-direction:row;
+.sponsorFlex{
+  display: flex;
+  align-content: center;
   justify-content: center;
-  align-items: center;
-  column-gap: 10rem;
-  width: 77.8rem;
+  background-color: var(--light);
 }
+
+.sponsorFlexGrid{
+  background-color: var(--light);
+  display: flex;
+  flex-flow: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
 
 .sponsorText {
   font-family: var(--overused);
-  color: var(--text);
+  color: white;
   font-size: 1.3rem;
   text-align: center;
   width:20rem;
 }
 
-.leftDiv{
+.sponsorDiv{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-left: 10%;
+  width: 400px;
+  height: 400px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #0e1740ff;
 }
 
 .sponsorButton {
-  background-color: var(--bg);
-  color: var(--light2)
+  background-color: white;
+  color: var(--text);
+  width: 150px;
 }
 
 .sponsorButton:hover {
-  background-color: var(--text);
+  background-color: rgb(150, 150, 150);
   color: var(--light)
+}
+
+.sponsorimgDiv{
+  display: inline-block;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
 }

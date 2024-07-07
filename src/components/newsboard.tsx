@@ -1,6 +1,7 @@
 const NewsBoard = () => {
   return (
       <>
+        <div className="newsBoardDiv">
         <div className="newsBoard">
           <h1 className="title">WHAT WE'RE UP TO</h1>
           <ul className="updates">
@@ -39,6 +40,7 @@ const NewsBoard = () => {
             </div>
             <hr />
           </ul>
+        </div>
         </div>
       </>
       
