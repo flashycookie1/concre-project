@@ -8,7 +8,7 @@ const Sponsor = () => {
           <button className="sponsorButton">Learn More</button>
         </div>
         <div className="sponsorimgDiv">
-          <img src="src/assets/sponsorimg.png" width="400px"></img>
+          <img src="src/assets/sponsorimg.png" width="370px"></img>
         </div>
       </div>
 
@@ -16,5 +16,4 @@ const Sponsor = () => {
     </>
   )
 }
-
 export default Sponsor

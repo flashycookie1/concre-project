@@ -37,9 +37,9 @@ body {
   --work: "Work Sans";
 
 /* background */
-background-color: var(--light);
+  background-color: var(--light);
   background-image: url(src/assets/bg.jpg);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -193,10 +193,11 @@ MiniGallery
 
 .newsBoard{
   background-color: var(--light);
+  display: flex;
   flex-direction: row;
   flex-flow: wrap;
-  align-content: center;
   justify-content: center;
+  align-content: center;
   column-gap: 20px
 }
 
@@ -206,7 +207,7 @@ MiniGallery
   width: 170px;
   color: var(--text);
   display: inline-block;
-  position: relative;
+  height: auto;
   padding-right: 30px;
 }
 
@@ -221,7 +222,7 @@ MiniGallery
   font-size: 16px;
   color: var(--text);
   padding: 0px;
-  width: 400px;
+  width: 320px;
   display: inline-block;
 }
 
@@ -342,6 +343,8 @@ hr {
   align-content: center;
   justify-content: center;
   background-color: var(--light);
+  padding-top: 100px;
+  padding-bottom: 200px;
 }
 
 .sponsorFlexGrid{
@@ -366,10 +369,8 @@ hr {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 400px;
-  height: 400px;
-  padding-left: 40px;
-  padding-right: 40px;
+  width: 370px;
+  height: 370px;
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: #0e1740ff;
@@ -391,6 +392,56 @@ hr {
   background-color: var(--light2);
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-left: 40px;
-  padding-right: 40px;
+}
+
+
+
+
+
+/*
+NavBarFooter
+*/
+
+.navBarFooter{
+  background-color: #181c54;
+  padding: 100px;
+  padding-bottom: 120px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 300px;
+  row-gap: 50px;
+  justify-content: center;
+}
+
+.links-icon{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.linksF{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 100px;
+  row-gap: 50px;
+  justify-content: center;
+  width: 300px;
+}
+
+.navFooterLink{
+  font-family: "Work Sans", sans-serif;
+  text-decoration:none;
+  color: white;
+  font-size: 20px;
+}
+
+.iconsF{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 65px;
+  padding-top: 50px;
+  justify-content: center;
 }
