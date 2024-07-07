@@ -5,6 +5,7 @@ import Hero from "./components/hero";
 import NewsBoard from "./components/newsboard";
 import Challenge from "./components/challenge";
 import Sponsor from "./components/sponsor";
+import NavBarFooter from "./components/navbarFooter";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <NewsBoard></NewsBoard>
         <Challenge></Challenge>
         <Sponsor></Sponsor>
+        <NavBarFooter></NavBarFooter>
     </>
   );
 }
