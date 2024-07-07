@@ -54,8 +54,6 @@ header {
   a, button {
   font-family: "Work Sans", sans-serif;
   text-decoration:none;
-  
-  color: var(--lightElement);
 }
 
 .logo {
@@ -70,7 +68,8 @@ header {
 .unselected {
   font-family: "Work Sans", sans-serif;
   text-decoration:none;
-  color: var(--lightElement);
+  color: var(--lightElement)
+  
 }
 
 .unselected:hover  {
@@ -82,7 +81,7 @@ header {
   margin-left: 35px;
   font-size: 13px;
   position: relative;
-  top: -10px
+  top: -10px;
 }
 
 .icon {
@@ -285,14 +284,14 @@ hr {
   color: var(--text);
   text-align: center;
   font-size: 18px;
-  padding-bottom: 3rem;
+  padding-bottom: 5rem;
 }
 
 .hover-underline-animation {
   display: inline-block;
   position: relative;
   font-family: var(--overused);
-  color: var(--text);
+  color: var(--text)
 }
 
 .hover-underline-animation::after {
@@ -313,6 +312,27 @@ hr {
   color: var(--text);
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+
+.theme {
+  background-image: url(src/assets/space.png);
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-size: 55rem;
+  width:auto;
+  padding: 30%;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: var(--light);
+  font-family: var(--overused);
+  font-size: 16px;
+  text-align: center;
 }
 
 /* Sponsorships */
@@ -362,13 +382,13 @@ hr {
 }
 
 .sponsorButton:hover {
-  background-color: rgb(150, 150, 150);
+  background-color: var(--text);
   color: var(--light)
 }
 
 .sponsorimgDiv{
   display: inline-block;
-  background-color: white;
+  background-color: var(--light2);
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 40px;

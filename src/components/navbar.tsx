@@ -1,7 +1,7 @@
 const Navbar = () => {
   
   const uconntact = "https://uconntact.uconn.edu/organization/concretecanoeassociationuconn";
-  const instagram = "https://www.instagram.com/uconnconcretecanoe?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==";
+  const instagram = "https://www.instagram.com/uconnconcretecanoe";
   const groupme = "https://groupme.com/join_group/55277612/5LKpXhFn"
   const email = "";
 
