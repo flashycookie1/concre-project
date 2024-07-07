@@ -20,9 +20,9 @@ const NavbarFooter = () => {
                         <a className="navFooterLink" href="#">Other?</a>
                     </div>
                     <div className="iconsF">
-                        <a className="iconF" href={groupme} target="_blank"><img src="src/assets/hash.svg" width="18px" height="auto"></img></a>
-                        <a className="iconF" href={instagram} target="_blank"><img src="src/assets/instagram.svg" width="18px" height="auto"></img></a>
-                        <a className="iconF" href={uconntact} target="_blank"><img src="src/assets/uconntact.svg" width="18px" height="auto"></img></a>
+                        <a className="iconF" href={groupme} target="_blank"><img src="src/assets/hash.svg" width="35px" height="auto"></img></a>
+                        <a className="iconF" href={instagram} target="_blank"><img src="src/assets/instagram.svg" width="35x" height="auto"></img></a>
+                        <a className="iconF" href={uconntact} target="_blank"><img src="src/assets/uconntact.svg" width="35px" height="auto"></img></a>
                     </div>
                 </div>
             </div>

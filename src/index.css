@@ -385,10 +385,11 @@ NavBarFooter
 .navBarFooter{
   background-color: #181c54;
   padding: 100px;
+  padding-bottom: 120px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  column-gap: 200px;
+  column-gap: 300px;
   row-gap: 50px;
   justify-content: center;
 }
@@ -420,4 +421,7 @@ NavBarFooter
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  column-gap: 65px;
+  padding-top: 50px;
+  justify-content: center;
 }
