@@ -9,7 +9,7 @@ const Theme = () =>
         </div>
         <div className="theme">
             <p style={{color: "#F2D027"}}>UCONN Concrete Canoe 2024-2025 Presents:</p>
-                <img src="src/assets/UConnstellation.svg" style={{width: '90%'}}></img>
+                <img src="src/assets/UConnstellation.svg" style={{width: '100%'}}></img>
             <p>
                 Stay Tuned! Follow <a
                     className="hover-underline-animation"
@@ -19,7 +19,7 @@ const Theme = () =>
                 > @uconnconcretecanoe
                 </a> on Instagram for announcements and upcoming events.
             </p>
-        <div style={{ display: 'flex', justifyContent: 'center', maxWidth:'400px' }}>
+        <div style={{ display: 'flex', justifyContent: 'center', maxWidth:'410px' }}>
             <InstagramEmbed url="https://www.instagram.com/uconnconcretecanoe" width={450} style={{padding: 20}}/>
         </div>
       </div>

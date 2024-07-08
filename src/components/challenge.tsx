@@ -6,7 +6,7 @@ const Challenge = () => {
 
   return (
     <div className="challengeDiv">
-      <p className="challengetxt">
+      <p className="challengetxt" style={{maxWidth: '820px'}}>
         YOUR CHALLENGE: Design and build a concrete canoe according to ASCE
         guidelines. We go through the entire engineering process--from initial
         design and testing to final construction--before submitting a design

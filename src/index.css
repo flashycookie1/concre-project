@@ -170,11 +170,11 @@ MiniGallery
 .backB, .nextB{
   background-color: var(--lightBlueHover);
   height: 50px;
-  width: 50px;
+  width: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 1px;
+  border-radius: 50px;
 }
 
 .backB:hover, .nextB:hover{
@@ -414,13 +414,11 @@ NavBarFooter
 
 .navBarFooter{
   background-color: #181c54;
-  padding: 100px;
-  padding-bottom: 120px;
+  padding: 50px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   column-gap: 300px;
-  row-gap: 50px;
   justify-content: center;
 }
 
@@ -438,6 +436,7 @@ NavBarFooter
   row-gap: 50px;
   justify-content: center;
   width: 300px;
+  margin-top: 50px;
 }
 
 .navFooterLink{

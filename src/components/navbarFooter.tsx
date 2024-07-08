@@ -15,9 +15,6 @@ const NavbarFooter = () => {
                         <a className="navFooterLink" href="#">Home</a>
                         <a className="navFooterLink" href="#">Sponsors</a>
                         <a className="navFooterLink" href="#">Archive</a>
-                        <a className="navFooterLink" href="#">Other?</a>
-                        <a className="navFooterLink" href="#">Other?</a>
-                        <a className="navFooterLink" href="#">Other?</a>
                     </div>
                     <div className="iconsF">
                         <a className="iconF" href={groupme} target="_blank"><img src="src/assets/hash.svg" width="35px" height="auto"></img></a>
