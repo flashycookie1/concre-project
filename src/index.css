@@ -315,15 +315,25 @@ hr {
   transform-origin: bottom left;
 }
 
+/*
+Theme
+*/
+
+.themeSpacer{
+  padding: 50px;
+  background-color: var(--light);
+}
+
 .theme {
   background-image: url(src/assets/space.png);
   background-repeat: no-repeat;
   background-position-x: 50%;
   background-size: 55rem;
+  background-color: var(--light);
   width:auto;
   padding: 30%;
-  padding-top: 5rem;
   padding-bottom: 5rem;
+  padding-top: 50px;
 
   display: flex;
   flex-direction: column;

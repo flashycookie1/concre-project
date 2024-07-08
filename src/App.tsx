@@ -6,6 +6,7 @@ import NewsBoard from "./components/newsboard";
 import Challenge from "./components/challenge";
 import Sponsor from "./components/sponsor";
 import NavBarFooter from "./components/navbarFooter";
+import Theme from "./components/theme";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <MiniGallery></MiniGallery>
         <NewsBoard></NewsBoard>
         <Challenge></Challenge>
+        <Theme></Theme>
         <Sponsor></Sponsor>
         <NavBarFooter></NavBarFooter>
     </>
