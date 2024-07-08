@@ -1,15 +1,20 @@
-import { Routes, Route } from 'react-router-dom';
-import Home from "./pages/home";
-import Sponsors from './pages/sponsors';
-import Process from './pages/process';
+import {BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from "./concrete-canoe/home";
+import Sponsors from './concrete-canoe/sponsors';
+import Process from './concrete-canoe/process';
 
 function App() {
   return (
-    <Routes>
-      <Route path='/' element={<Home></Home>}></Route>
-      <Route path='/' element={<Sponsors></Sponsors>}></Route>
-      <Route path='/' element={<Process></Process>}></Route>
-    </Routes>
+    <>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/home' element={<Home></Home>}></Route>
+        <Route path='/sponsors' element={<Sponsors></Sponsors>}></Route>
+        <Route path='/process' element={<Process></Process>}></Route>
+      </Routes>
+    </BrowserRouter>
+    </>
+    
   );
 }
 
