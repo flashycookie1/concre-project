@@ -1,4 +1,4 @@
-import {Outlet, Link} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 const Navbar = () => {
   
@@ -17,7 +17,6 @@ const Navbar = () => {
             <li className="navlink"><Link to="/process" className="unselected"> Process</Link></li>
           </ul>
         </nav>
-        <Outlet/>
       <div>
         <a className="icon" href={groupme} target="_blank"><img src="src/assets/hash.svg" width="18px" height="auto"></img></a>
         <a className="icon" href={instagram} target="_blank"><img src="src/assets/instagram.svg" width="18px" height="auto"></img></a>

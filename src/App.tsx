@@ -1,7 +1,7 @@
 import {BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from "./concrete-canoe/home";
-import Sponsors from './concrete-canoe/sponsors';
-import Process from './concrete-canoe/process';
+import Home from "./pages/home";
+import Sponsors from './pages/sponsors';
+import Process from './pages/process';
 
 function App() {
   return (

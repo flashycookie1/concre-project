@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom";
+
 const NavbarFooter = () => {
     const uconntact = "https://uconntact.uconn.edu/organization/concretecanoeassociationuconn";
     const instagram = "https://www.instagram.com/uconnconcretecanoe?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==";
@@ -12,9 +14,9 @@ const NavbarFooter = () => {
                 </div>
                 <div className="links-icons">
                     <div className="linksF">
-                        <a className="navFooterLink" href="#">Home</a>
-                        <a className="navFooterLink" href="#">Sponsors</a>
-                        <a className="navFooterLink" href="#">Process</a>
+                        <Link to="/home" className="navFooterLink"> Home</Link>
+                        <Link to="/sponsors" className="navFooterLink"> Sponsors</Link>
+                        <Link to="/process" className="navFooterLink"> Process</Link>
                     </div>
                     <div className="iconsF">
                         <a className="iconF" href={groupme} target="_blank"><img src="src/assets/hash.svg" width="35px" height="auto"></img></a>
