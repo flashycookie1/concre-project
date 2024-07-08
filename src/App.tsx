@@ -1,25 +1,15 @@
-//import { useState } from 'react'
-import Navbar from "./components/navbar";
-import MiniGallery from "./components/minigallery";
-import Hero from "./components/hero";
-import NewsBoard from "./components/newsboard";
-import Challenge from "./components/challenge";
-import Sponsor from "./components/sponsor";
-import NavBarFooter from "./components/navbarFooter";
-import Theme from "./components/theme";
+import { Routes, Route } from 'react-router-dom';
+import Home from "./pages/home";
+import Sponsors from './pages/sponsors';
+import Process from './pages/process';
 
 function App() {
   return (
-    <>
-        <Navbar></Navbar>
-        <Hero></Hero>
-        <MiniGallery></MiniGallery>
-        <NewsBoard></NewsBoard>
-        <Challenge></Challenge>
-        <Theme></Theme>
-        <Sponsor></Sponsor>
-        <NavBarFooter></NavBarFooter>
-    </>
+    <Routes>
+      <Route path='/' element={<Home></Home>}></Route>
+      <Route path='/' element={<Sponsors></Sponsors>}></Route>
+      <Route path='/' element={<Process></Process>}></Route>
+    </Routes>
   );
 }
 

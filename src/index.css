@@ -48,7 +48,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px 2%;
+  padding: 10px 2%;
 }
 
   a, button {
@@ -57,7 +57,7 @@ header {
 }
 
 .logo {
-  margin-right: 55px;
+  margin-right: 5%;
 }
 
 .selected {
@@ -78,7 +78,6 @@ header {
 
 .navlink{
   display: inline-block;
-  margin-left: 35px;
   font-size: 13px;
   position: relative;
   top: -10px;

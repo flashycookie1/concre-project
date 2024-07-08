@@ -1,18 +1,19 @@
+import {Link} from "react-router-dom";
+
 const Navbar = () => {
   
   const uconntact = "https://uconntact.uconn.edu/organization/concretecanoeassociationuconn";
   const instagram = "https://www.instagram.com/uconnconcretecanoe";
-  const groupme = "https://groupme.com/join_group/55277612/5LKpXhFn"
-  const email = "";
+  const groupme = "https://groupme.com/join_group/55277612/5LKpXhFn";
 
   return (
     <>
-      <header><img className="logo" src="src/assets/logo.png" alt="UCONN Concrete Canoe"width="7%" height="auto"></img>
+      <header><img className="logo" src="src/assets/logo.png" alt="UCONN Concrete Canoe"width="100px" height="auto"></img>
         <nav>
           <ul>
-            <li className="navlink"><a className="selected" href="#">Home</a></li>
-            <li className="navlink"><a className="unselected" href="#">Sponsors</a></li>
-            <li className="navlink"><a className="unselected" href="#">Archive</a></li>
+            <li className="navlink" style={{marginRight:'35px'}}><a className="selected" href="#">Home</a></li>
+            <li className="navlink" style={{marginRight:'35px'}}><Link to="../pages/sponsors.tsx"> <a className="unselected">Sponsors</a></Link></li>
+            <li className="navlink"><Link to="../pages/process.tsx"> <a className="unselected">Process</a></Link></li>
           </ul>
         </nav>
       <div>

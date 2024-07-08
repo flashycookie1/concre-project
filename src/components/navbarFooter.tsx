@@ -8,13 +8,13 @@ const NavbarFooter = () => {
         <footer>
             <div className="navBarFooter">
                 <div className="logoF">
-                    <img src="src/assets/logo.png" width="300px" alt="logo" />
+                    <img src="src/assets/logo.png" width="270px" alt="logo" />
                 </div>
                 <div className="links-icons">
                     <div className="linksF">
                         <a className="navFooterLink" href="#">Home</a>
                         <a className="navFooterLink" href="#">Sponsors</a>
-                        <a className="navFooterLink" href="#">Archive</a>
+                        <a className="navFooterLink" href="#">Process</a>
                     </div>
                     <div className="iconsF">
                         <a className="iconF" href={groupme} target="_blank"><img src="src/assets/hash.svg" width="35px" height="auto"></img></a>
