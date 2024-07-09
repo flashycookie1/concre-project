@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const NewsBoard = () => {
   return (
       <>
@@ -11,7 +13,9 @@ const NewsBoard = () => {
                 Northeastern Student Symposium
               </li>
               <div className="b1Div">
-                <button className="b1"> Visit Gallery </button>
+                <a href="https://uconntact.uconn.edu/organization/concretecanoeassociationuconn/gallery" target="_blank">
+                  <button className="b1"> Visit Gallery </button>
+                </a>
               </div>
             </div>
             <hr />
@@ -23,7 +27,9 @@ const NewsBoard = () => {
                 </li>
               </div>
               <div className="b1Div">
-                <button className="b1"> Sponsor Us </button>
+                <Link to='/sponsors'>
+                  <button className="b1"> Sponsor Us </button>
+                </Link>
               </div>
             </div>
             <hr/>
@@ -35,7 +41,9 @@ const NewsBoard = () => {
                 </li>
               </div>
               <div className="b1Div">
-                <button className="b1"> View Process </button>
+                <Link to='/process'>
+                  <button className="b1"> View Process </button>
+                </Link>
               </div>
             </div>
             <hr />
