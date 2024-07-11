@@ -384,12 +384,8 @@ Theme
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 24rem;
   height: auto;
-  /* padding-top: 20px;
-  padding-bottom: 20px; */
-
-  /* navy blue #0e1740ff */
+  /* #0e1740ff */
 }
 
 .sponsorButton {
