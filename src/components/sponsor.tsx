@@ -8,7 +8,7 @@ const Sponsor = () => {
       <div className="sponsorFlexGrid">
         <div className="sponsorDiv">
           <p className="sponsorText">Interested in sponsoring us? Learn how becoming a sponsor works</p>
-          <Link to='/sponsors'>
+          <Link to='/sponsors' onClick={() => {window.scroll(0, 0)}}>
             <button className="sponsorButton">Learn More</button>
           </Link>
           
