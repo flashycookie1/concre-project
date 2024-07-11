@@ -27,7 +27,7 @@ const NewsBoard = () => {
                 </li>
               </div>
               <div className="b1Div">
-                <Link to='/sponsors'>
+                <Link to='/sponsors' onClick={() => {window.scroll(0, 0)}}>
                   <button className="b1"> Sponsor Us </button>
                 </Link>
               </div>
@@ -41,7 +41,7 @@ const NewsBoard = () => {
                 </li>
               </div>
               <div className="b1Div">
-                <Link to='/process'>
+                <Link to='/process' onClick={() => {window.scroll(0, 0)}}>
                   <button className="b1"> View Process </button>
                 </Link>
               </div>

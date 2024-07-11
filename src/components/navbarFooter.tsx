@@ -14,9 +14,9 @@ const NavbarFooter = () => {
                 </div>
                 <div className="links-icons">
                     <div className="linksF">
-                        <Link to="/home" className="navFooterLink"> Home</Link>
-                        <Link to="/sponsors" className="navFooterLink"> Sponsors</Link>
-                        <Link to="/process" className="navFooterLink"> Process</Link>
+                        <Link to="/home" className="navFooterLink" onClick={() => {window.scroll(0, 0)}}> Home</Link>
+                        <Link to="/sponsors" className="navFooterLink" onClick={() => {window.scroll(0, 0)}}> Sponsors</Link>
+                        <Link to="/process" className="navFooterLink" onClick={() => {window.scroll(0, 0)}}> Process</Link>
                     </div>
                     <div className="iconsF">
                         <a className="iconF" href={groupme} target="_blank"><img src="src/assets/hash.svg" width="35px" height="auto"></img></a>
