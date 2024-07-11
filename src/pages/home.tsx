@@ -5,21 +5,20 @@ import NewsBoard from "../components/newsboard";
 import Challenge from "../components/challenge";
 import Sponsor from "../components/sponsor";
 import NavBarFooter from "../components/navbarFooter";
-import Theme from "../components/theme";
+// import Theme from "../components/theme";
 
 const Home = () => {
-    return(
-        <>
-            <Navbar></Navbar>
-            <Hero></Hero>
-            <MiniGallery></MiniGallery>
-            <NewsBoard></NewsBoard>
-            <Challenge></Challenge>
-            <Theme></Theme>
-            <Sponsor></Sponsor>
-            <NavBarFooter></NavBarFooter>
-        </>
-    )
-}
+  return (
+    <>
+      <Navbar></Navbar>
+      <Hero></Hero>
+      <MiniGallery></MiniGallery>
+      <NewsBoard></NewsBoard>
+      <Challenge></Challenge>
+      <Sponsor></Sponsor>
+      <NavBarFooter></NavBarFooter>
+    </>
+  );
+};
 
-export default Home
+export default Home;
