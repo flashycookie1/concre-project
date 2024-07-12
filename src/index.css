@@ -97,7 +97,6 @@ button {
   border-radius: 20px;
   transition: all 0.3 ease 0s;
   cursor: pointer;
-  margin-bottom: 10px
 }
 button:hover {
   background-color: var(--lightBlueHover);
@@ -415,9 +414,8 @@ NavBarFooter
 
 .navBarFooter{
   background-color: #14173f;
-  padding: 20px;
-  padding-left: 0px;
-  padding-right: 0px;
+  padding-top: 20px;
+  padding-bottom: 1%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -452,9 +450,10 @@ NavBarFooter
   flex-direction: row;
   flex-wrap: wrap;
   column-gap: 40px;
-  justify-content: center;
   align-items: right;
-  margin-right: 40px;
+  margin-right: 5%;
+  position: relative;
+  top: 6px;
 }
 
 .textF {

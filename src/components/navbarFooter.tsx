@@ -21,10 +21,16 @@ const NavbarFooter = () => {
                     </div>
                     </div> */}
                     <div className="iconsF">
-                        <a className="iconF" href={groupme} target="_blank"><img src="src/assets/hash.svg" width="25px" height="auto"></img></a>
-                        <a className="iconF" href={instagram} target="_blank"><img src="src/assets/instagram.svg" width="25px" height="auto"></img></a>
-                        <a className="iconF" href={uconntact} target="_blank"><img src="src/assets/uconntact.svg" width="25px" height="auto"></img></a>
+                        <a className="iconF" href={groupme} target="_blank"><img src="src/assets/hash.svg" width="23px" height="auto"></img></a>
+                        <a className="iconF" href={instagram} target="_blank"><img src="src/assets/instagram.svg" width="23px" height="auto"></img></a>
+                        <a className="cta" href={uconntact} target="_blank"><button>Join UConntact</button></a>
                     </div>
+                    <hr style={{
+                      marginRight:'4%',
+                      marginLeft:'5%',
+                      width:'100%',
+                      height:'1.5px',
+                      backgroundColor: '#5C6070'}}/>
                 </div>
         </footer>
       </>
