@@ -18,7 +18,7 @@ const NewsBoard = () => {
                 </a>
               </div>
             </div>
-            <hr />
+            <hr/>
             <div className="text-button-grid">
               <div>
                 <li className="list-group-item">
