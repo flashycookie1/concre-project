@@ -9,22 +9,23 @@ const NavbarFooter = () => {
       <>
         <footer>
             <div className="navBarFooter">
-                <div className="logoF">
-                    <img src="src/assets/logo.png" width="270px" alt="logo" />
-                </div>
-                <div className="links-icons">
+                <a style={{display: 'flex', justifyContent: 'center'}} href="#top">
+                <img src="src/assets/logo.png" width="100px" height="100px" alt="logo"/>
+                <p className="textF" style={{paddingTop:'3%', textAlign:'left', color: '#FFFEF0', width:'50%', paddingLeft:'3%'}}>University of Connecticut Concrete Canoe Association</p>
+                </a>
+                {/* <div className="links-icons">
                     <div className="linksF">
                         <Link to="/home" className="navFooterLink" onClick={() => {window.scroll(0, 0)}}> Home</Link>
                         <Link to="/sponsors" className="navFooterLink" onClick={() => {window.scroll(0, 0)}}> Sponsors</Link>
                         <Link to="/process" className="navFooterLink" onClick={() => {window.scroll(0, 0)}}> Process</Link>
                     </div>
+                    </div> */}
                     <div className="iconsF">
-                        <a className="iconF" href={groupme} target="_blank"><img src="src/assets/hash.svg" width="35px" height="auto"></img></a>
-                        <a className="iconF" href={instagram} target="_blank"><img src="src/assets/instagram.svg" width="35x" height="auto"></img></a>
-                        <a className="iconF" href={uconntact} target="_blank"><img src="src/assets/uconntact.svg" width="35px" height="auto"></img></a>
+                        <a className="iconF" href={groupme} target="_blank"><img src="src/assets/hash.svg" width="25px" height="auto"></img></a>
+                        <a className="iconF" href={instagram} target="_blank"><img src="src/assets/instagram.svg" width="25px" height="auto"></img></a>
+                        <a className="iconF" href={uconntact} target="_blank"><img src="src/assets/uconntact.svg" width="25px" height="auto"></img></a>
                     </div>
                 </div>
-            </div>
         </footer>
       </>
     );

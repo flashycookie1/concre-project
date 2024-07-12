@@ -39,7 +39,7 @@ body {
 /* background */
   background-color: var(--light);
   background-image: url(src/assets/bg.jpg);
-  background-size: cover;
+  background-size: auto;
   background-repeat: no-repeat;
 }
 
@@ -353,6 +353,7 @@ Theme
 /* Sponsorships */
 
 .sponsorFlex{
+  width: 100%;
   display: flex;
   align-content: center;
   justify-content: center;
@@ -385,6 +386,8 @@ Theme
   justify-content: center;
   align-items: center;
   height: auto;
+  padding-bottom: 5%;
+  padding-top: 5%;
   /* #0e1740ff */
 }
 
@@ -395,7 +398,7 @@ Theme
 }
 
 .sponsorButton:hover {
-  background-color: var(--bg);
+  background-color: var(--text);
   color: var(--light)
 }
 
@@ -411,44 +414,49 @@ NavBarFooter
 */
 
 .navBarFooter{
-  background-color: #181c54;
-  padding: 50px;
+  background-color: #14173f;
+  padding: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  column-gap: 300px;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.links-icon{
+/* .links-icon{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-}
+} */
 
-.linksF{
+/* .linksF{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   column-gap: 100px;
   row-gap: 50px;
   justify-content: center;
-  width: 300px;
-  margin-top: 50px;
-}
+} */
 
-.navFooterLink{
+/* .navFooterLink{
   font-family: "Work Sans", sans-serif;
   text-decoration:none;
-  color: white;
+  color: var(--light);
   font-size: 20px;
-}
+} */
 
 .iconsF{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  column-gap: 65px;
-  padding-top: 50px;
+  column-gap: 40px;
   justify-content: center;
+  align-items: right;
+  margin-right: 40px;
+}
+
+.textF {
+  font-family: var(--overused);
 }
