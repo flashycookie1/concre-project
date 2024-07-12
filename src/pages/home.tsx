@@ -10,6 +10,7 @@ import NavBarFooter from "../components/navbarFooter";
 const Home = () => {
   return (
     <>
+      <a id="top"></a>
       <Navbar></Navbar>
       <Hero></Hero>
       <MiniGallery></MiniGallery>
