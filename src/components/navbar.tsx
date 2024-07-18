@@ -1,5 +1,9 @@
 import {Link} from "react-router-dom";
+
 import logo from '../assets/logo.png';
+import '../assets/hash.svg';
+import '../assets/instagram.svg';
+//importing images for vercel compatibility
 
 const Navbar = () => {
   
