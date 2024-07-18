@@ -1,4 +1,5 @@
 import {Link} from "react-router-dom";
+import logo from '../assets/logo.png';
 
 const Navbar = () => {
   
@@ -9,7 +10,7 @@ const Navbar = () => {
   return (
     <>
   
-      <header><img className="logo" src="src/assets/logo.png" alt="UCONN Concrete Canoe"width="100px" height="auto"></img>
+      <header><img className="logo" src={logo} alt="UCONN Concrete Canoe"width="100px" height="auto"></img>
         <nav>
           <ul>
             <li className="navlink" style={{marginRight:'35px'}}><Link to="/home" className="unselected"> Home</Link></li>
