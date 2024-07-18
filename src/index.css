@@ -8,6 +8,8 @@
   src: url(src/assets/fonts/BluuNext-Bold.otf);
 }
 
+@import url('src/assets/bg.jpg');
+
 html {  
   scroll-behavior: smooth;
   max-width: 100%;
