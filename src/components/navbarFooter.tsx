@@ -1,4 +1,4 @@
-import {Link} from "react-router-dom";
+// import {Link} from "react-router-dom";
 
 const NavbarFooter = () => {
     const uconntact = "https://uconntact.uconn.edu/organization/concretecanoeassociationuconn";
