@@ -1,8 +1,8 @@
 import {Link} from "react-router-dom";
 
 import logo from '../assets/logo.png';
-import '../assets/hash.svg';
-import '../assets/instagram.svg';
+import hash from '../assets/hash.svg';
+import insta from '../assets/instagram.svg';
 //importing images for vercel compatibility
 
 const Navbar = () => {
@@ -23,8 +23,8 @@ const Navbar = () => {
           </ul>
         </nav>
       <div>
-        <a className="icon" href={groupme} target="_blank"><img src="src/assets/hash.svg" width="18px" height="auto"></img></a>
-        <a className="icon" href={instagram} target="_blank"><img src="src/assets/instagram.svg" width="18px" height="auto"></img></a>
+        <a className="icon" href={groupme} target="_blank"><img src={hash} width="18px" height="auto"></img></a>
+        <a className="icon" href={instagram} target="_blank"><img src={insta} width="18px" height="auto"></img></a>
         <a className="cta" href={uconntact} target="_blank"><button>Join UConntact</button></a>
       </div>
       </header>
