@@ -1,4 +1,5 @@
 import { InstagramEmbed } from 'react-social-media-embed';
+import uconnstellation from '../assets/UConnstellation.svg';
 
 const Challenge = () => {
   const uconntact =
@@ -29,7 +30,7 @@ const Challenge = () => {
       </p>
         <div className="theme">
             <p style={{color: "#F2D027"}}>UCONN Concrete Canoe 2024-2025 Presents:</p>
-                <img src="src/assets/UConnstellation.svg" style={{width: '75%'}}></img>
+                <img src={uconnstellation} style={{width: '75%'}}></img>
             <p style={{width: '60%'}}>
                 Stay Tuned! Follow <a
                     className="hover-underline-animation"
