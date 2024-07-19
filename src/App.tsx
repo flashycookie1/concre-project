@@ -3,6 +3,7 @@ import Home from "./pages/home";
 import Sponsors from './pages/sponsors';
 import Process from './pages/process';
 
+
 function App() {
   return (
     <>

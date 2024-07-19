@@ -6,6 +6,7 @@ import Challenge from "../components/challenge";
 import Sponsor from "../components/sponsor";
 import NavBarFooter from "../components/navbarFooter";
 // import Theme from "../components/theme";
+import bg from './assets/bg.jpg'
 
 const Home = () => {
   return (
