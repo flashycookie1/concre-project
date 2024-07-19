@@ -375,12 +375,11 @@ Theme
 }
 
 .sponsorText {
-  display: inline;
-  font-family: var(--overused);
+  /* font-family: var(--overused);
   color: var(--text);
-  font-size: 1.4rem;
+  font-size: 22px;
   text-align: center;
-  width:23rem;
+  width:23rem; */
 }
 
 .sponsorDiv{
