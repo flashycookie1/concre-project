@@ -1,6 +1,5 @@
 import { InstagramEmbed } from 'react-social-media-embed';
 const instagram = "https://www.instagram.com/uconnconcretecanoe";
-
 import uconnstellation from '../assets/UConnstellation.svg';
 
 const Theme = () => {
