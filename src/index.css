@@ -262,7 +262,7 @@ hr {
   flex-direction: column;
   align-items: center;
   background-color: var(--light);
-  background-image: url(src/assets/water.svg);
+  background-image: url('src/assets/water.svg');
   background-size: 60rem;
   background-repeat: no-repeat;
   background-position-x: 50%;
@@ -324,7 +324,7 @@ Theme
 } */
 
 .theme {
-  background: url(src/assets/space.png);
+  background: url('src/assets/space.png');
   border-radius: 1%;
   background-repeat: no-repeat;
   background-position-x: 50%;
