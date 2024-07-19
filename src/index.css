@@ -39,7 +39,7 @@ body {
 /* background */
   background-color: var(--light);
   background-image: url('./assets/bg.jpg');
-  background-size: auto;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
