@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <>
   
-      <header><img className="logo" src={logo} alt="UCONN Concrete Canoe"width="100px" height="auto"></img>
+      <header><Link to='/home'><img className="logo" src={logo} alt="UCONN Concrete Canoe"width="100px" height="auto"></img></Link>
         <nav>
           <ul>
             <li className="navlink" style={{marginRight:'35px'}}><Link to="/home" className="unselected"> Home</Link></li>
