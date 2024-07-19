@@ -8,7 +8,7 @@ const Sponsor = () => {
       <div className="sponsorFlex">
         <div className="sponsorFlexGrid">
           <div className="sponsorDiv">
-            <p className="sponsorText"> Interested in sponsoring us? Learn how becoming a sponsor works </p>
+            <p> Interested in sponsoring us? Learn how becoming a sponsor works </p>
             <Link to="/sponsors">
               <button className="sponsorButton">Learn More</button>
             </Link>

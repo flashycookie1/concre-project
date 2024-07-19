@@ -374,14 +374,6 @@ Theme
   column-gap: 5rem;
 }
 
-.sponsorText {
-  /* font-family: var(--overused);
-  color: var(--text);
-  font-size: 22px;
-  text-align: center;
-  width:23rem; */
-}
-
 .sponsorDiv{
   display: flex;
   flex-direction: column;
@@ -391,6 +383,12 @@ Theme
   padding-bottom: 5%;
   padding-top: 5%;
   /* #0e1740ff */
+
+  font-family: var(--overused);
+  color: var(--text);
+  font-size: 22px;
+  text-align: center;
+  width:23rem;
 }
 
 .sponsorButton {
