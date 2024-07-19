@@ -371,7 +371,7 @@ Theme
   flex-flow: wrap;
   align-content: center;
   justify-content: space-evenly;
-  column-gap: 10rem;
+  column-gap: 20rem;
 }
 
 .sponsorText {
