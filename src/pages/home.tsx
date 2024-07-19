@@ -7,6 +7,8 @@ import Sponsor from "../components/sponsor";
 import NavBarFooter from "../components/navbarFooter";
 // import Theme from "../components/theme";
 
+import bg from '../assets/bg.jpg';
+import water from '../assets/water.svg'
 
 
 const Home = () => {
