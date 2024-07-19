@@ -357,8 +357,12 @@ Theme
   align-content: center;
   justify-content: center;
   background-color: var(--light);
-  padding-top: 5%;
+
+  margin-right: 10;
+  margin-left: 10;
+  padding-top: 4%;
   padding-bottom: 5%;
+
 }
 
 .sponsorFlexGrid{
@@ -366,10 +370,9 @@ Theme
   display: flex;
   flex-flow: wrap;
   align-content: center;
-  justify-content: center;
+  justify-content: space-evenly;
   column-gap: 5rem;
 }
-
 
 .sponsorText {
   font-family: var(--overused);
