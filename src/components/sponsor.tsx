@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "../process.css";
+import sponsorImg from '../assets/sponsorimg.png';
 
 const Sponsor = () => {
   return (
@@ -15,7 +16,7 @@ const Sponsor = () => {
             </Link>
           </div>
           <div className="sponsorimgDiv">
-            <img src="src/assets/sponsorimg.png" width="370px"></img>
+            <img src={sponsorImg} width="370px"></img>
           </div>
         </div>
       </div>

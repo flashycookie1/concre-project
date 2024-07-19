@@ -1,4 +1,7 @@
 // import {Link} from "react-router-dom";
+import logo from '../assets/logo.png';
+import hash from '../assets/hash.svg';
+import insta from '../assets/instagram.svg';
 
 const NavbarFooter = () => {
     const uconntact = "https://uconntact.uconn.edu/organization/concretecanoeassociationuconn";
@@ -10,7 +13,7 @@ const NavbarFooter = () => {
         <footer>
             <div className="navBarFooter">
                 <a style={{display: 'flex', justifyContent: 'center'}} href="#top">
-                <img src="src/assets/logo.png" width="100px" height="100px" alt="logo"/>
+                <img src={logo} width="100px" height="100px" alt="logo"/>
                 <p className="textF" style={{paddingTop:'3%', textAlign:'left', color: '#FFFEF0', width:'50%', paddingLeft:'3%'}}>University of Connecticut Concrete Canoe Association</p>
                 </a>
                 {/* <div className="links-icons">
@@ -21,8 +24,8 @@ const NavbarFooter = () => {
                     </div>
                     </div> */}
                     <div className="iconsF">
-                        <a className="iconF" href={groupme} target="_blank"><img src="src/assets/hash.svg" width="23px" height="auto"></img></a>
-                        <a className="iconF" href={instagram} target="_blank"><img src="src/assets/instagram.svg" width="23px" height="auto"></img></a>
+                        <a className="iconF" href={groupme} target="_blank"><img src={hash} width="23px" height="auto"></img></a>
+                        <a className="iconF" href={instagram} target="_blank"><img src={insta} width="23px" height="auto"></img></a>
                         <a className="cta" href={uconntact} target="_blank"><button>Join UConntact</button></a>
                     </div>
                     <hr style={{

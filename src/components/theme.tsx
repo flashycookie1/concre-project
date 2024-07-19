@@ -1,15 +1,16 @@
 import { InstagramEmbed } from 'react-social-media-embed';
 const instagram = "https://www.instagram.com/uconnconcretecanoe";
 
-const Theme = () =>
-{
+import uconnstellation from '../assets/UConnstellation.svg';
+
+const Theme = () => {
     return(
         <>
         <div className="themeSpacer">
         </div>
         <div className="theme">
             <p style={{color: "#F2D027"}}>UCONN Concrete Canoe 2024-2025 Presents:</p>
-                <img src="src/assets/UConnstellation.svg" style={{width: '100%'}}></img>
+                <img src={uconnstellation} style={{width: '100%'}}></img>
             <p>
                 Stay Tuned! Follow <a
                     className="hover-underline-animation"
