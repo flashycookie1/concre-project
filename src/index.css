@@ -7,7 +7,6 @@
   font-family: "Bluu Next";
   src: url(src/assets/fonts/BluuNext-Bold.otf);
 }
-@import url('src/assets/bg.jpg');
 
 html {  
   scroll-behavior: smooth;
@@ -39,7 +38,7 @@ body {
 
 /* background */
   background-color: var(--light);
-  background-image: url('src/assets/bg.jpg');
+  background-image: url('./assets/bg.jpg');
   background-size: auto;
   background-repeat: no-repeat;
 }
