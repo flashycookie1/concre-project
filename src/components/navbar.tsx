@@ -14,19 +14,21 @@ const Navbar = () => {
   return (
     <>
   
-      <header><Link to='/home'><img className="logo" src={logo} alt="UCONN Concrete Canoe"width="100px" height="auto"></img></Link>
-        <nav>
-          <ul>
+      <header>
+        <div style={{display: 'flex', flexDirection:'row', flexWrap:'wrap', columnGap:'380px', rowGap:'10px', justifyContent:'center', alignItems:'center'}}>
+          <Link to='/home'><img className="logo" src={logo} alt="UCONN Concrete Canoe"width="100px" height="auto"></img></Link>
+          <div>
             <li className="navlink" style={{marginRight:'35px'}}><Link to="/home" className="unselected"> Home</Link></li>
             <li className="navlink" style={{marginRight:'35px'}}><Link to="/sponsors" className="unselected"> Sponsors</Link></li>
             <li className="navlink"><Link to="/process" className="unselected"> Process</Link></li>
-          </ul>
-        </nav>
-      <div>
-        <a className="icon" href={groupme} target="_blank"><img src={hash} width="18px" height="auto"></img></a>
-        <a className="icon" href={instagram} target="_blank"><img src={insta} width="18px" height="auto"></img></a>
-        <a className="cta" href={uconntact} target="_blank"><button>Join UConntact</button></a>
-      </div>
+          </div>
+          <div style={{display: 'flex', flexDirection:'row', flexWrap:'wrap', columnGap:'40px', rowGap:'10px', justifyContent:'center', alignItems:'center'}}>
+            <a className="icon" href={groupme} target="_blank"><img src={hash} width="18px" height="auto"></img></a>
+            <a className="icon" href={instagram} target="_blank"><img src={insta} width="18px" height="auto"></img></a>
+            <a className="cta" href={uconntact} target="_blank"><button>Join UConntact</button></a>
+          </div>
+        </div>
+      
       </header>
    
     </>

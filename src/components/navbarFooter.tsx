@@ -16,13 +16,6 @@ const NavbarFooter = () => {
                 <img src={logo} width="100px" height="100px" alt="logo"/>
                 <p className="textF" style={{paddingTop:'3%', textAlign:'left', color: '#FFFEF0', width:'50%', paddingLeft:'3%'}}>University of Connecticut Concrete Canoe Association</p>
                 </a>
-                {/* <div className="links-icons">
-                    <div className="linksF">
-                        <Link to="/home" className="navFooterLink" onClick={() => {window.scroll(0, 0)}}> Home</Link>
-                        <Link to="/sponsors" className="navFooterLink" onClick={() => {window.scroll(0, 0)}}> Sponsors</Link>
-                        <Link to="/process" className="navFooterLink" onClick={() => {window.scroll(0, 0)}}> Process</Link>
-                    </div>
-                    </div> */}
                     <div className="iconsF">
                         <a className="iconF" href={groupme} target="_blank"><img src={hash} width="23px" height="auto"></img></a>
                         <a className="iconF" href={instagram} target="_blank"><img src={insta} width="23px" height="auto"></img></a>

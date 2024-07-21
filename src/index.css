@@ -83,10 +83,6 @@ header {
   top: -10px;
 }
 
-.icon {
-  padding-left: 9px;
-  padding-right: 15px;
-}
 
 button {
   padding: 10px 23px;
@@ -105,7 +101,7 @@ button:hover {
 
 .cta {
   position: relative;
-  top: -5px
+  top: -5px;
 }
 
 /*
@@ -291,7 +287,7 @@ hr {
   display: inline-block;
   position: relative;
   font-family: var(--overused);
-  color: var(--text)
+  color: rgb(102, 102, 102);
 }
 
 .hover-underline-animation::after {
@@ -318,10 +314,6 @@ hr {
 Theme
 */
 
-/* .themeSpacer{
-  padding: 50px;
-  background-color: var(--light);
-} */
 
 .theme {
   background: url('./assets/space.png');
@@ -330,7 +322,7 @@ Theme
   background-position-x: 50%;
   background-size: 55rem;
   
-  width:auto;
+  width: 80%;
   padding: 7%;
   padding-bottom: 5rem;
   padding-top: 50px;
@@ -382,7 +374,6 @@ Theme
   height: auto;
   padding-bottom: 5%;
   padding-top: 5%;
-  /* #0e1740ff */
 
   font-family: var(--overused);
   color: var(--text);
@@ -417,43 +408,24 @@ NavBarFooter
   background-color: #14173f;
   padding-top: 20px;
   padding-bottom: 1%;
+  padding-right: 50px;
+  padding-left: 50px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-}
-
-/* .links-icon{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-} */
-
-/* .linksF{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  column-gap: 100px;
-  row-gap: 50px;
   justify-content: center;
-} */
-
-/* .navFooterLink{
-  font-family: "Work Sans", sans-serif;
-  text-decoration:none;
-  color: var(--light);
-  font-size: 20px;
-} */
+  align-items: center;
+  row-gap: 20px;
+  column-gap: 35%;
+}
 
 .iconsF{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   column-gap: 40px;
-  align-items: right;
-  margin-right: 5%;
-  position: relative;
   top: 6px;
 }
 
