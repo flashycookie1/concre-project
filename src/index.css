@@ -317,7 +317,7 @@ Theme
 
 .theme {
   background: url('./assets/space.png');
-  border-radius: 1%;
+  border-radius: 5%;
   background-repeat: no-repeat;
   background-position-x: 50%;
   background-size: 55rem;
