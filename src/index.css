@@ -1,11 +1,11 @@
 @import url(https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap);
 @font-face {
   font-family: "Overused Grotesk Medium";
-  src: url(src/assets/fonts/OverusedGrotesk-Medium.ttf);
+  src: url(./assets/fonts/OverusedGrotesk-Medium.ttf);
 }
 @font-face {
   font-family: "Bluu Next";
-  src: url(src/assets/fonts/BluuNext-Bold.otf);
+  src: url(./assets//fonts/BluuNext-Bold.otf);
 }
 
 html {  
@@ -21,15 +21,15 @@ body {
   font-family: sans-serif;
 
   /* color variables */
-  --light: #FFFEF0;
+  --light: #FFFFFF;
   --lightHover: rgba(255, 255, 255, 0.7);
-  --light2: #F2F1E6;
+  --light2: rgba(0, 6, 42, 0.05);;
   --lightBlueHover: rgba(143, 186, 249, 0.9);
   --lightBlue: #8FBAF9;
   --darkBlue: #629AED;
-  --text: #2B3041;
+  --text: #21253E;
   --lightElement: #90939E;
-  --bg: #21253E;
+  --bg: #18214A;
 
   /* custom font variables */
   --overused: "Overused Grotesk Medium";
@@ -37,8 +37,7 @@ body {
   --work: "Work Sans";
 
 /* background */
-  background-color: var(--light);
-  background-image: url('./assets/bg.jpg');
+  background-color: var(--bg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -54,15 +53,6 @@ header {
   a, button {
   font-family: "Work Sans", sans-serif;
   text-decoration:none;
-}
-
-.logo {
-  padding-left: 20px;
-}
-
-.selected {
-  text-decoration:underline;
-  color: var(--light);
 }
 
 .unselected {
@@ -82,7 +72,6 @@ header {
   position: relative;
   top: -10px;
 }
-
 
 button {
   padding: 10px 23px;
@@ -287,7 +276,7 @@ hr {
   display: inline-block;
   position: relative;
   font-family: var(--overused);
-  color: rgb(102, 102, 102);
+  color: var(--text);
 }
 
 .hover-underline-animation::after {
@@ -317,12 +306,12 @@ Theme
 
 .theme {
   background: url('./assets/space.png');
-  border-radius: 5%;
+  border-radius: 1%;
   background-repeat: no-repeat;
   background-position-x: 50%;
   background-size: 55rem;
   
-  width: 80%;
+  width: 55%;
   padding: 7%;
   padding-bottom: 5rem;
   padding-top: 50px;

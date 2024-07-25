@@ -36,7 +36,7 @@ const Challenge = () => {
                     className="hover-underline-animation"
                     href={instagram}
                     target="_blank"
-                    style={{ color: "#629AED" }}
+                    style={{ color: '#21253E' }}
                 > @uconnconcretecanoe
                 </a> on Instagram for announcements and upcoming events.
             </p>
