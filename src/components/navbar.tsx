@@ -75,7 +75,7 @@ const Navbar = () => {
               flexDirection: "row",
               justifyContent: "space-evenly",
               alignItems: "center",
-              width: "50%",
+              width: "300px",
             }}
           >
             <a className="icon" href={groupme} target="_blank">
