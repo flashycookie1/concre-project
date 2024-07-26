@@ -22,7 +22,7 @@ const NavbarFooter = () => {
                         <a className="cta" href={uconntact} target="_blank"><button>Join UConntact</button></a>
                     </div>
                     <hr style={{
-                      marginRight:'4%',
+                      marginRight:'5%',
                       marginLeft:'5%',
                       width:'100%',
                       height:'1.5px',
