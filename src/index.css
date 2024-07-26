@@ -1,12 +1,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap);
-@font-face {
-  font-family: "Overused Grotesk Medium";
-  src: url(./assets/fonts/OverusedGrotesk-Medium.ttf);
-}
-@font-face {
-  font-family: "Bluu Next";
-  src: url(./assets//fonts/BluuNext-Bold.otf);
-}
+@import url(https://fonts.googleapis.com/css2?family=Barlow:wght@700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,500;1,500&display=swap);
+
 
 html {  
   scroll-behavior: smooth;
@@ -32,8 +27,8 @@ body {
   --bg: #18214A;
 
   /* custom font variables */
-  --overused: "Overused Grotesk Medium";
-  --bluu: "Bluu Next";
+  --grotesk: "Hanken Grotesk";
+  --barlow: "Barlow";
   --work: "Work Sans";
 
 /* background */
@@ -100,13 +95,13 @@ Hero
 .herotxt {
   align-items: center;
   text-align: center;
-  font-size: 40px;
-  font-family: var(--bluu);
+  font-size: 45px;
+  font-family: var(--barlow);
   color: var(--light);
 }
 
 .sub {
-  font-family: var(--overused);
+  font-family: var(--grotesk);
   font-size: 18px;
   color: var(--lightBlue);
   text-align: center;
@@ -185,13 +180,14 @@ MiniGallery
 }
 
 .title{
-  font-family: var(--bluu), sans-serif;
+  font-family: var(--barlow), sans-serif;
   font-size: 55px;
   width: 170px;
   color: var(--text);
   display: inline-block;
   height: auto;
   padding-right: 30px;
+  text-align: center;
 }
 
 .updates{
@@ -200,7 +196,7 @@ MiniGallery
 }
 
 .list-group-item{
-  font-family: var(--overused), sans-serif;
+  font-family: var(--grotesk), sans-serif;
   text-decoration:none;
   font-size: 16px;
   color: var(--text);
@@ -256,7 +252,7 @@ hr {
 }
 
 .challengetxt {
-  font-family: var(--overused);
+  font-family: var(--grotesk);
   font-size: 18px;
   color: var(--text);
   text-align: center;
@@ -265,7 +261,7 @@ hr {
 }
 
 .interested{
-  font-family: var(--overused);
+  font-family: var(--grotesk);
   color: var(--text);
   text-align: center;
   font-size: 18px;
@@ -275,7 +271,7 @@ hr {
 .hover-underline-animation {
   display: inline-block;
   position: relative;
-  font-family: var(--overused);
+  font-family: var(--grotesk);
   color: var(--text);
 }
 
@@ -293,7 +289,7 @@ hr {
 }
 
 .hover-underline-animation:hover::after {
-  font-family: var(--overused);
+  font-family: var(--grotesk);
   color: var(--text);
   transform: scaleX(1);
   transform-origin: bottom left;
@@ -325,7 +321,7 @@ Theme
   align-items: center;
 
   color: var(--light);
-  font-family: var(--overused);
+  font-family: var(--grotesk);
   font-size: 16px;
   text-align: center;
 }
@@ -364,7 +360,7 @@ Theme
   padding-bottom: 5%;
   padding-top: 5%;
 
-  font-family: var(--overused);
+  font-family: var(--grotesk);
   color: var(--text);
   font-size: 22px;
   text-align: center;
@@ -397,15 +393,13 @@ NavBarFooter
   background-color: #14173f;
   padding-top: 20px;
   padding-bottom: 1%;
-  padding-right: 50px;
-  padding-left: 50px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   row-gap: 20px;
-  column-gap: 35%;
+  column-gap: 30%;
 }
 
 .iconsF{
@@ -416,8 +410,9 @@ NavBarFooter
   align-items: center;
   column-gap: 40px;
   top: 6px;
+  margin-right: 5%;
 }
 
 .textF {
-  font-family: var(--overused);
+  font-family: var(--grotesk);
 }
