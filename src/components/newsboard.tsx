@@ -36,8 +36,8 @@ const NewsBoard = () => {
             <div className="text-button-grid">
               <div>
                 <li className="list-group-item">
-                  Planning for the 2024-2025<br/>
-                  Season is underway!
+                  We're deep into the process<br/>
+                  for 2024-2025's Competition!
                 </li>
               </div>
               <div className="b1Div">
