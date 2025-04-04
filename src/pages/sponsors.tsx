@@ -4,6 +4,7 @@ import spons_pack from "../assets/FINAL_Sponsor_Packet.pdf";
 import '../sponsors.css';
 import HNTB from "../assets/HNTB_Logo.png";
 import Laticrete from "../assets/laticrete_logo.png";
+import Triumph from "../assets/triumph_logo.png";
 
 
 const Sponsors = () =>{
@@ -17,6 +18,12 @@ const Sponsors = () =>{
                           alignItems: "center",
                           paddingBottom: "100px" }}>
                 <p className="intro_text">Thanks to Our Sponsors!</p>
+                <img src={Triumph}
+                    style={{backgroundColor: "white",
+                    padding: 30,
+                    height: 100,
+                    marginBottom: 50
+                }}/>
                 <img src={HNTB}
                     style={{backgroundColor: "white",
                     padding: 30,
