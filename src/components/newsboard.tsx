@@ -9,8 +9,8 @@ const NewsBoard = () => {
           <ul className="updates">
             <div className="text-button-grid">
               <li className="list-group-item">
-                UConn takes 4th place overall at the ASCE<br/>
-                Northeastern Student Symposium
+                UConn takes 5th place overall at the ASCE<br/>
+                Northeastern Student Symposium 2024-2025
               </li>
               <div className="b1Div">
                 <a href="https://uconntact.uconn.edu/organization/concretecanoeassociationuconn/gallery" target="_blank">
@@ -36,8 +36,8 @@ const NewsBoard = () => {
             <div className="text-button-grid">
               <div>
                 <li className="list-group-item">
-                  We're well into the process<br/>
-                  for this year's season!
+                  The 2024-2025 season is over<br/>
+                  and the team is excited for next year!
                 </li>
               </div>
               <div className="b1Div">
